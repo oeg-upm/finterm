@@ -5,11 +5,13 @@ An LLM-based framework for financial terminology under semantic scarcity: silver
 
 This repository contains the code and data for an LLM-based framework that addresses semantic scarcity in financial terminology at three levels:
 
-1. **Resources.** A silver standard of English financial terminology, built from expert-validated IATE entries and a domain glossary projected onto a corpus of EU financial documents (2,555 segments), and enriched with a panel of LLM judges.
+1. **Resources.** A silver standard of English financial terminology, built from expert-validated IATE entries and a domain glossary projected onto a corpus of EU financial documents (2,555 segments), enriched with LLM-proposed terms and reviewed by a panel of three LLM judges (Command A, Mistral Large 4 and Nemotron 3 Ultra) calibrated against human annotation.
 2. **Extraction.** A comparison of ranking-based keyphrase methods (AttentionRank, KeyBERT, PromptRank) and direct extraction with LLMs (Qwen3-14B, Gemma-2-9B-it, DiSTER-Llama-3-8B-Instruct), evaluated against the silver standard.
 3. **Concepts.** A linking method that maps extracted terms to Wikidata by comparing their meaning in context with an enriched set of candidate senses: original descriptions, context-aware translations of descriptions in other languages, and definitions generated only when the available evidence is sufficient.
 
 Linking to Wikidata turns the English term list into a multilingual resource intended to support glossary creation for computer-assisted interpreting.
+
+![Framework overview](docs/framework.png)
 
 ## Repository structure
 
