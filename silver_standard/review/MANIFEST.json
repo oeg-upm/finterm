@@ -1,0 +1,100 @@
+{
+  "files": {
+    "README.md": {
+      "sha256": "7c989f42c9e12be383c4ec18a16ae4018d37d006a81ae39a42b68390ffccd98c",
+      "bytes": 4771
+    },
+    "calibration_core.py": {
+      "sha256": "97754a7908951cefb98aa6e05c45ea87ff7663fb81003e56bf0f2b20d04360e0",
+      "bytes": 5840
+    },
+    "data/calibration_votes.csv": {
+      "sha256": "6cdeecf81e249f14973b118194e7ed3d9ceeb673394624f64069b97a9fd379dd",
+      "bytes": 14786
+    },
+    "data/evaluation_snapshot.json": {
+      "sha256": "1cb8021850d6c81380124f3198efbf197d1530190db7eedf8abf899d892baf42",
+      "bytes": 923184
+    },
+    "data/human_calibration_120.csv": {
+      "sha256": "d48fa079ed983fbdad6794c3582706f7c6fa733f56370e01880ffee018a0e5eb",
+      "bytes": 6193
+    },
+    "data/pairs_990.csv": {
+      "sha256": "6bd4905cd712afda0ec0e7e50796e62e2e6fd45e759259a9f6ad901d65dcbbd3",
+      "bytes": 590770
+    },
+    "data/pairs_990_original_panel_contexts.csv": {
+      "sha256": "e4179bfd7837d592ce4502292396e3c96a447c72a7130a14cac099be865f5a76",
+      "bytes": 590690
+    },
+    "evaluate_archived.py": {
+      "sha256": "3dc9e20507666206cfef5c908d0f107b0ee5fb4d3d04bf292066a3e5b3f8b1f9",
+      "bytes": 3025
+    },
+    "evaluation_core.py": {
+      "sha256": "bf400d2b1ba8d6017c3ef113b56acc79ef7542dda8dca3f554c96cb6ab483957",
+      "bytes": 8334
+    },
+    "prompts/V1.txt": {
+      "sha256": "c9647962318fea373dc09c376f9d99c6d488d1fffae5c755c36e82e960a1e08b",
+      "bytes": 1142
+    },
+    "prompts/V2.txt": {
+      "sha256": "ab6935defed4ade3e4210482a19efc1a6048b9967d6b13ec826fb51217c21801",
+      "bytes": 2567
+    },
+    "results/calibration_summary.json": {
+      "sha256": "f864d7a8fddc462ec5f22cb62c11d37e9498f88b763fe6e7576774ebae0e5f3f",
+      "bytes": 469
+    },
+    "results/decisions_120.csv": {
+      "sha256": "047bc4f4f20679b582ae9211b9955a1f847f7fa59901568fcca9b9999741117c",
+      "bytes": 20650
+    },
+    "results/decisions_58.csv": {
+      "sha256": "7cb5a8a1e65702bfb4748f85dd81d1319ff11ebfeea729b3c53e14b6d1197a72",
+      "bytes": 335595
+    },
+    "results/metrics_120.csv": {
+      "sha256": "a9f38ad8de8c9b93f34a5cad15494eb79e7248f0bc126d15abb94a50ebcd03f8",
+      "bytes": 16337
+    },
+    "results/metrics_58.csv": {
+      "sha256": "36aeede50a75f40ce6fffb948c216c2d4f707a245f6e1cf4d6309d1d2747be51",
+      "bytes": 10906
+    },
+    "results/panel_agreement.json": {
+      "sha256": "98f3f8f7749c9cba56df62fab7e82f2e3791d1c8fd3d88fcdec4ed343e0f53c5",
+      "bytes": 5588
+    },
+    "results/reference_changes.json": {
+      "sha256": "5b0ca8f930d0a4165721a2f32fb0ec8bbdf53fb49b9d4e15aaf5b5570ef55c8e",
+      "bytes": 2217
+    },
+    "votes/v1/Cohere.jsonl": {
+      "sha256": "43c963b15442e101452477ba3eaca71e3787471a788f16cb3e914fef026bbb5d",
+      "bytes": 349889
+    },
+    "votes/v1/Mistral.jsonl": {
+      "sha256": "e95287b7fb07fcfc28e161325766c6f98a69ea761fec9d603e4e2e42c4cb7d95",
+      "bytes": 561025
+    },
+    "votes/v1/Nemotron.jsonl": {
+      "sha256": "3c32985bd4d1f1618e7f4626c26588c8f3dc75dec68794b359ff58a7aa021373",
+      "bytes": 729789
+    },
+    "votes/v2_A/Cohere.jsonl": {
+      "sha256": "edc331fe0e3818859f98d9c5e757df8bb446834ac48d4d00da011390bcda24bd",
+      "bytes": 144356
+    },
+    "votes/v2_A/Mistral.jsonl": {
+      "sha256": "836ff17e92db9c93d435978ed44c14869bd1da0b7e42f28739cd0aabc7524ab3",
+      "bytes": 156190
+    },
+    "votes/v2_A/Nemotron.jsonl": {
+      "sha256": "23f1b363382b0c89e68c235f759d6e1e90e3b30882c82c914f686c6369f50cdb",
+      "bytes": 158292
+    }
+  }
+}

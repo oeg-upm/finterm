@@ -1,0 +1,114 @@
+{
+  "A_V1_strict": {
+    "reviewed_pairs": 120,
+    "adds": 12,
+    "removals": 34,
+    "reference_pairs": 3411,
+    "actions": {
+      "ADD": 12,
+      "KEEP": 57,
+      "KEEP_DISAGREE": 9,
+      "REMOVE": 34,
+      "DO_NOT_ADD": 7,
+      "KEEP_OUT_DISAGREE": 1
+    }
+  },
+  "A_V1_broad": {
+    "reviewed_pairs": 120,
+    "adds": 18,
+    "removals": 14,
+    "reference_pairs": 3437,
+    "actions": {
+      "ADD": 18,
+      "KEEP": 77,
+      "KEEP_DISAGREE": 9,
+      "REMOVE": 14,
+      "KEEP_OUT_DISAGREE": 1,
+      "DO_NOT_ADD": 1
+    }
+  },
+  "A_V2_strict": {
+    "reviewed_pairs": 120,
+    "adds": 10,
+    "removals": 43,
+    "reference_pairs": 3400,
+    "actions": {
+      "ADD": 10,
+      "KEEP": 48,
+      "REMOVE": 43,
+      "KEEP_DISAGREE": 9,
+      "DO_NOT_ADD": 9,
+      "KEEP_OUT_DISAGREE": 1
+    }
+  },
+  "A_V2_broad": {
+    "reviewed_pairs": 120,
+    "adds": 15,
+    "removals": 18,
+    "reference_pairs": 3430,
+    "actions": {
+      "ADD": 15,
+      "KEEP": 73,
+      "KEEP_DISAGREE": 9,
+      "REMOVE": 18,
+      "DO_NOT_ADD": 4,
+      "KEEP_OUT_DISAGREE": 1
+    }
+  },
+  "V1_990_strict": {
+    "reviewed_pairs": 990,
+    "adds": 102,
+    "removals": 245,
+    "reference_pairs": 3290,
+    "actions": {
+      "KEEP": 522,
+      "REMOVE": 245,
+      "ADD": 102,
+      "KEEP_DISAGREE": 73,
+      "DO_NOT_ADD": 41,
+      "KEEP_OUT_DISAGREE": 7
+    }
+  },
+  "V1_990_broad": {
+    "reviewed_pairs": 990,
+    "adds": 124,
+    "removals": 112,
+    "reference_pairs": 3445,
+    "actions": {
+      "KEEP": 655,
+      "REMOVE": 112,
+      "ADD": 124,
+      "KEEP_DISAGREE": 73,
+      "DO_NOT_ADD": 19,
+      "KEEP_OUT_DISAGREE": 7
+    }
+  },
+  "MIXTA_990_strict": {
+    "reviewed_pairs": 990,
+    "adds": 100,
+    "removals": 254,
+    "reference_pairs": 3279,
+    "actions": {
+      "KEEP": 513,
+      "REMOVE": 254,
+      "ADD": 100,
+      "KEEP_DISAGREE": 73,
+      "DO_NOT_ADD": 43,
+      "KEEP_OUT_DISAGREE": 7
+    }
+  },
+  "MIXTA_990_broad": {
+    "reviewed_pairs": 990,
+    "adds": 121,
+    "removals": 116,
+    "reference_pairs": 3438,
+    "actions": {
+      "KEEP": 651,
+      "REMOVE": 116,
+      "ADD": 121,
+      "KEEP_DISAGREE": 73,
+      "DO_NOT_ADD": 22,
+      "KEEP_OUT_DISAGREE": 7
+    }
+  }
+}

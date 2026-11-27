@@ -1,0 +1,213 @@
+{
+  "Cohere": {
+    "V1": {
+      "n_total": 120,
+      "n_consenso": 120,
+      "cobertura": 1.0,
+      "etiquetas": {
+        "GENERIC": 29,
+        "SPECIFIC": 76,
+        "GENERAL_USE": 7,
+        "NOT_TERM": 6,
+        "PARTIAL": 2
+      },
+      "kappa_5": 0.18491375458039142,
+      "kappa_estricto": 0.3061023622047243,
+      "kappa_amplio": 0.12087912087912084,
+      "kappa_humano_amplio_juez_estricto": 0.31673728813559326,
+      "acuerdo_estricto": 0.6083333333333333,
+      "acuerdo_amplio": 0.5,
+      "humanos_entre_specific_del_juez": {
+        "SPECIFIC": 30,
+        "NOT_TERM": 19,
+        "GENERIC": 11,
+        "PARTIAL": 16
+      }
+    },
+    "V2": {
+      "n_total": 120,
+      "n_consenso": 120,
+      "cobertura": 1.0,
+      "etiquetas": {
+        "GENERIC": 39,
+        "SPECIFIC": 60,
+        "NOT_TERM": 20,
+        "PARTIAL": 1
+      },
+      "kappa_5": 0.2646789829888421,
+      "kappa_estricto": 0.3833333333333333,
+      "kappa_amplio": 0.19583023082650788,
+      "kappa_humano_amplio_juez_estricto": 0.31666666666666665,
+      "acuerdo_estricto": 0.6916666666666667,
+      "acuerdo_amplio": 0.55,
+      "humanos_entre_specific_del_juez": {
+        "SPECIFIC": 27,
+        "NOT_TERM": 16,
+        "GENERIC": 7,
+        "PARTIAL": 10
+      }
+    }
+  },
+  "Mistral": {
+    "V1": {
+      "n_total": 120,
+      "n_consenso": 120,
+      "cobertura": 1.0,
+      "etiquetas": {
+        "GENERIC": 31,
+        "SPECIFIC": 65,
+        "PARTIAL": 15,
+        "NOT_TERM": 9
+      },
+      "kappa_5": 0.2954565983199349,
+      "kappa_estricto": 0.3591455273698263,
+      "kappa_amplio": 0.23423423423423417,
+      "kappa_humano_amplio_juez_estricto": 0.3761969904240766,
+      "acuerdo_estricto": 0.6666666666666666,
+      "acuerdo_amplio": 0.575,
+      "humanos_entre_specific_del_juez": {
+        "SPECIFIC": 28,
+        "NOT_TERM": 18,
+        "GENERIC": 10,
+        "PARTIAL": 9
+      }
+    },
+    "V2": {
+      "n_total": 120,
+      "n_consenso": 120,
+      "cobertura": 1.0,
+      "etiquetas": {
+        "GENERIC": 17,
+        "SPECIFIC": 56,
+        "NOT_TERM": 37,
+        "PARTIAL": 8,
+        "GENERAL_USE": 2
+      },
+      "kappa_5": 0.3049753133308013,
+      "kappa_estricto": 0.4661308840413319,
+      "kappa_amplio": 0.39086294416243655,
+      "kappa_humano_amplio_juez_estricto": 0.4094488188976379,
+      "acuerdo_estricto": 0.7416666666666667,
+      "acuerdo_amplio": 0.6833333333333333,
+      "humanos_entre_specific_del_juez": {
+        "SPECIFIC": 28,
+        "NOT_TERM": 13,
+        "GENERIC": 7,
+        "PARTIAL": 8
+      }
+    }
+  },
+  "Nemotron": {
+    "V1": {
+      "n_total": 120,
+      "n_consenso": 120,
+      "cobertura": 1.0,
+      "etiquetas": {
+        "SPECIFIC": 65,
+        "GENERIC": 16,
+        "GENERAL_USE": 24,
+        "NOT_TERM": 10,
+        "PARTIAL": 5
+      },
+      "kappa_5": 0.24640209332751856,
+      "kappa_estricto": 0.45527369826435243,
+      "kappa_amplio": 0.3108848864526233,
+      "kappa_humano_amplio_juez_estricto": 0.4418604651162791,
+      "acuerdo_estricto": 0.7166666666666667,
+      "acuerdo_amplio": 0.6333333333333333,
+      "humanos_entre_specific_del_juez": {
+        "SPECIFIC": 31,
+        "PARTIAL": 13,
+        "NOT_TERM": 12,
+        "GENERIC": 9
+      }
+    },
+    "V2": {
+      "n_total": 120,
+      "n_consenso": 120,
+      "cobertura": 1.0,
+      "etiquetas": {
+        "SPECIFIC": 55,
+        "PARTIAL": 7,
+        "GENERIC": 35,
+        "NOT_TERM": 15,
+        "GENERAL_USE": 8
+      },
+      "kappa_5": 0.2829751181664139,
+      "kappa_estricto": 0.4790159189580318,
+      "kappa_amplio": 0.22137404580152661,
+      "kappa_humano_amplio_juez_estricto": 0.390691114245416,
+      "acuerdo_estricto": 0.75,
+      "acuerdo_amplio": 0.575,
+      "humanos_entre_specific_del_juez": {
+        "SPECIFIC": 28,
+        "NOT_TERM": 12,
+        "GENERIC": 6,
+        "PARTIAL": 9
+      }
+    }
+  },
+  "Panel": {
+    "V1": {
+      "n_total": 120,
+      "n_consenso": 110,
+      "cobertura": 0.9166666666666666,
+      "etiquetas": {
+        "GENERIC": 26,
+        "SPECIFIC": 69,
+        "DISAGREE": 10,
+        "GENERAL_USE": 5,
+        "NOT_TERM": 6,
+        "PARTIAL": 4
+      },
+      "kappa_5": 0.2443572129538763,
+      "kappa_estricto": 0.3454329068729544,
+      "kappa_amplio": 0.15773353751914237,
+      "kappa_humano_amplio_juez_estricto": 0.3277581215825024,
+      "acuerdo_estricto": 0.6363636363636364,
+      "acuerdo_amplio": 0.5454545454545454,
+      "humanos_entre_specific_del_juez": {
+        "SPECIFIC": 30,
+        "NOT_TERM": 16,
+        "GENERIC": 10,
+        "PARTIAL": 13
+      }
+    },
+    "V2": {
+      "n_total": 120,
+      "n_consenso": 110,
+      "cobertura": 0.9166666666666666,
+      "etiquetas": {
+        "GENERIC": 30,
+        "SPECIFIC": 58,
+        "DISAGREE": 10,
+        "NOT_TERM": 18,
+        "PARTIAL": 4
+      },
+      "kappa_5": 0.3230769230769231,
+      "kappa_estricto": 0.432258064516129,
+      "kappa_amplio": 0.25324675324675316,
+      "kappa_humano_amplio_juez_estricto": 0.38848920863309355,
+      "acuerdo_estricto": 0.7090909090909091,
+      "acuerdo_amplio": 0.5818181818181818,
+      "humanos_entre_specific_del_juez": {
+        "SPECIFIC": 28,
+        "NOT_TERM": 14,
+        "GENERIC": 6,
+        "PARTIAL": 10
+      }
+    },
+    "comparacion_mismos_casos_con_consenso": {
+      "V1": {
+        "n": 101,
+        "kappa_estricto": 0.34381035996488146,
+        "kappa_amplio": 0.15247277271915735
+      },
+      "V2": {
+        "n": 101,
+        "kappa_estricto": 0.4023668639053255,
+        "kappa_amplio": 0.2502263262719537
+      }
+    }
+  }
+}

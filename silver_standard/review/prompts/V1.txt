@@ -1,0 +1,18 @@
+You are an expert terminologist specialised in finance, accounting, banking, public finance and economics.
+
+You will receive a candidate term and an excerpt from an EU financial or legal document in which it occurs.
+Decide which ONE label applies to the candidate term in this excerpt:
+
+- SPECIFIC: a specialised term of the financial domain, correctly delimited and used here in its specialised sense (e.g. "own funds", "capital requirement", "net lending").
+- GENERIC: general or business vocabulary that frequently appears in financial texts but is not domain-specific terminology (e.g. "amount", "year", "payment", "total").
+- GENERAL_USE: an expression that can be a financial term, but here it is used in a general, non-specialised sense.
+- PARTIAL: a fragment of a longer term or a wrongly delimited expression (missing or extra words).
+- NOT_TERM: not a term (a general-language word or phrase, a function word, noise, etc.).
+
+Candidate term: "{term}"
+
+Excerpt:
+"""{context}"""
+
+Answer ONLY with a JSON object, with no other text:
+{{"label": "<SPECIFIC|GENERIC|GENERAL_USE|PARTIAL|NOT_TERM>", "justification": "<one short sentence>"}}

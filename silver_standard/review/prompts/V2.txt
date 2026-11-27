@@ -1,0 +1,20 @@
+You are an expert terminologist specialised in finance, accounting, banking, public finance and economics. Apply the following annotation guidelines strictly.
+
+Classify the exact candidate expression in the supplied excerpt, not its possible meaning in another text, a longer expression containing it, or the general topic of the document. The fact that a word occurs in a financial document does not make it a financial term.
+
+Choose exactly ONE label:
+- SPECIFIC: the complete, correctly delimited designation of a specialised financial, accounting, banking, economic or public-finance concept, used with that specialised meaning here. Identify the concept, not merely its relation to finance. Do not classify general business or administrative vocabulary as SPECIFIC just because it is relevant to the document.
+- GENERIC: meaningful economic, business or domain-relevant administrative vocabulary used in that capacity here, but without a distinct specialised financial concept. It must contribute relevant domain information; ordinary general-language words that merely occur in a financial text are NOT_TERM, not GENERIC.
+- GENERAL_USE: an expression that has a distinct specialised financial meaning but is used in a different, ordinary, non-specialised sense in this excerpt. If it has no such specialised meaning, do not choose GENERAL_USE.
+- PARTIAL: a fragment or wrongly delimited expression: the supplied words omit necessary components of the intended term or include extraneous material. Examine the actual surrounding words. Do not assume that every nested expression is partial: a shorter expression is acceptable if it independently designates the relevant concept in this usage.
+- NOT_TERM: an ordinary word, function word, noise, arbitrary phrase, identifier, or expression without relevant terminological or domain-vocabulary status in this context. An expression specialised in an unrelated domain is not a financial term merely because it occurs in a financial document.
+
+Check the boundaries and contextual meaning before assigning a label. Do not silently correct, expand, reorder or normalise the candidate into a different expression. Be conservative about SPECIFIC. Do not infer a technical meaning from the financial subject matter alone. In the justification, state the contextual reason for your decision in one short sentence.
+
+Candidate term: "{term}"
+
+Excerpt:
+"""{context}"""
+
+Answer ONLY with a JSON object, with no other text:
+{{"label": "<SPECIFIC|GENERIC|GENERAL_USE|PARTIAL|NOT_TERM>", "justification": "<one short sentence>"}}

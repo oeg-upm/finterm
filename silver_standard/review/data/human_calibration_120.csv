@@ -1,0 +1,121 @@
+﻿case_id,pair_id,label
+A-001,32013R0549_seg_692||transactions,SPECIFIC
+A-002,32021B0417_seg_263||appropriations,SPECIFIC
+A-003,32021B0417_seg_263||appropriation,SPECIFIC
+A-004,32013R0549_seg_410||financial,PARTIAL
+A-005,"32013R0549_seg_692||adjusted disposable income, net",NOT_TERM
+A-006,32021B0417_seg_509||studies,NOT_TERM
+A-007,32021B0417_seg_588||union membership,NOT_TERM
+A-008,32021B0417_seg_1382||infrastructure policy and management,NOT_TERM
+A-009,32013R0575_seg_258||current exposure,SPECIFIC
+A-010,32013R0549_seg_686||taxes on income,SPECIFIC
+A-011,32013R0549_seg_687||listed shares,SPECIFIC
+A-012,32013R0549_seg_410||investment fund,SPECIFIC
+A-013,32021B0417_seg_1382||purchase,GENERIC
+A-014,32013R0549_seg_8||eurostat,NOT_TERM
+A-015,32021B0417_seg_1122||sickness insurance,GENERIC
+A-016,32013R0575_seg_189||financial,PARTIAL
+A-017,32013R0575_seg_417||eligible capital,SPECIFIC
+A-018,32021B0417_seg_1442||data,PARTIAL
+A-019,32013R0549_seg_535||package holidays,NOT_TERM
+A-020,32013R0549_seg_535||pets,NOT_TERM
+A-021,32013R0549_seg_687||financial assets,SPECIFIC
+A-022,32013R0575_seg_18||banks,GENERIC
+A-023,32021B0417_seg_509||outturn,SPECIFIC
+A-024,32013R0575_seg_18||shortage,GENERIC
+A-025,32013R0575_seg_258||measurement,PARTIAL
+A-026,32013R0575_seg_115||treated as follows,NOT_TERM
+A-027,32013R0549_seg_469||set,NOT_TERM
+A-028,32013R0549_seg_687||financial account,SPECIFIC
+A-029,32013R0549_seg_154||social insurance,GENERIC
+A-030,32013R0549_seg_488||specific crops,NOT_TERM
+A-031,32013R0575_seg_173||estimation,GENERIC
+A-032,32013R0575_seg_193||enforceable,GENERIC
+A-033,32021B0417_seg_509||communication actions,NOT_TERM
+A-034,32021B0417_seg_588||ipa,SPECIFIC
+A-035,32013R0575_seg_115||member state,GENERIC
+A-036,32013R0575_seg_258||adequate resources,NOT_TERM
+A-037,32013R0575_seg_193||third party institution,SPECIFIC
+A-038,32013R0549_seg_535||r&d services n.e.c.,NOT_TERM
+A-039,32013R0549_seg_686||net non-life insurance premiums,SPECIFIC
+A-040,32021B0417_seg_1382||digital workplace,NOT_TERM
+A-041,32021B0417_seg_1122||services,NOT_TERM
+A-042,32013R0549_seg_8||balance,PARTIAL
+A-043,32013R0575_seg_417||business day,GENERIC
+A-044,32013R0549_seg_488||households as consumers,SPECIFIC
+A-045,32013R0549_seg_8||report,GENERIC
+A-046,32013R0549_seg_488||order,NOT_TERM
+A-047,32013R0549_seg_154||defaults,SPECIFIC
+A-048,32013R0575_seg_18||financial,PARTIAL
+A-049,32013R0575_seg_258||risk measurement model,SPECIFIC
+A-050,32021B0417_seg_1122||costs,PARTIAL
+A-051,32013R0549_seg_535||r&d social protection,NOT_TERM
+A-052,32013R0549_seg_469||import duties,SPECIFIC
+A-053,32013R0575_seg_258||settlement,PARTIAL
+A-054,32013R0575_seg_173||methods,NOT_TERM
+A-055,32013R0549_seg_154||guarantee,GENERIC
+A-056,32013R0575_seg_189||surrender of rights on collateral,PARTIAL
+A-057,32013R0575_seg_258||liquidity,PARTIAL
+A-058,32013R0549_seg_687||resources,PARTIAL
+A-059,32013R0575_seg_173||distributions,PARTIAL
+A-060,32013R0575_seg_193||deposit,PARTIAL
+A-061,32013R0549_seg_328||fiscal systems,GENERIC
+A-062,32013R0575_seg_173||field audit,GENERIC
+A-063,32021B0417_seg_509||general objectives of regulation,NOT_TERM
+A-064,32013R0549_seg_410||deposits,SPECIFIC
+A-065,32013R0575_seg_258||principles,NOT_TERM
+A-066,32021B0417_seg_556||european union special representatives (eusrs),NOT_TERM
+A-067,32021B0417_seg_175||additional appropriations,PARTIAL
+A-068,32013R0549_seg_488||market producers,SPECIFIC
+A-069,32013R0549_seg_687||receivable/payable,PARTIAL
+A-070,32021B0417_seg_509||basis,NOT_TERM
+A-071,32013R0549_seg_559||losses,PARTIAL
+A-072,32021B0417_seg_1442||financing,GENERAL_USE
+A-073,32013R0549_seg_559||changes in classification of assets and liabilities,NOT_TERM
+A-074,32021B0417_seg_556||eusr,NOT_TERM
+A-075,32021B0417_seg_509||transition between that programme and the measures adopted,NOT_TERM
+A-076,32013R0549_seg_410||economic,GENERAL_USE
+A-077,32021B0417_seg_556||(eu) no 1316/2013,NOT_TERM
+A-078,32013R0549_seg_154||student loan guarantees,SPECIFIC
+A-079,32013R0575_seg_18||effective means,NOT_TERM
+A-080,32013R0575_seg_115||loss,PARTIAL
+A-081,32021B0417_seg_263||chapter,NOT_TERM
+A-082,32021B0417_seg_175||oversight,GENERAL_USE
+A-083,"32021B0417_seg_556||regulation (eu, euratom) 2018/1046",NOT_TERM
+A-084,32013R0575_seg_193||maturity of the loan,NOT_TERM
+A-085,32013R0575_seg_189||overall risk profile,NOT_TERM
+A-086,32021B0417_seg_509||cover,NOT_TERM
+A-087,32013R0549_seg_559||non-financial assets,SPECIFIC
+A-088,32013R0575_seg_258||credit exposures,SPECIFIC
+A-089,32013R0549_seg_328||fisim,SPECIFIC
+A-090,32013R0575_seg_115||option,PARTIAL
+A-091,32013R0575_seg_18||funding forced,PARTIAL
+A-092,32021B0417_seg_588||implementation,GENERIC
+A-093,32013R0575_seg_417||tier,PARTIAL
+A-094,32021B0417_seg_175||budget line,SPECIFIC
+A-095,32021B0417_seg_1382||chapter,NOT_TERM
+A-096,32021B0417_seg_588||participating in union programmes,NOT_TERM
+A-097,32013R0575_seg_189||operation,GENERIC
+A-098,32013R0549_seg_687||other capital transfers,NOT_TERM
+A-099,32013R0549_seg_686||non-life insurance claims,SPECIFIC
+A-100,32021B0417_seg_1442||grand total,GENERIC
+A-101,32021B0417_seg_509||regulation,PARTIAL
+A-102,32021B0417_seg_1382||revenue from third parties,NOT_TERM
+A-103,32013R0575_seg_417||mutual guarantee schemes,SPECIFIC
+A-104,32013R0575_seg_189||processes,NOT_TERM
+A-105,32021B0417_seg_556||general budget,SPECIFIC
+A-106,32013R0549_seg_535||gas,NOT_TERM
+A-107,32013R0575_seg_189||documented policies,GENERIC
+A-108,32013R0549_seg_686||production,PARTIAL
+A-109,32013R0549_seg_8||legal acts,NOT_TERM
+A-110,32013R0575_seg_115||territory with loss rates,PARTIAL
+A-111,32013R0575_seg_115||is the lessor and the tenant,NOT_TERM
+A-112,32013R0549_seg_488||overview,NOT_TERM
+A-113,32021B0417_seg_588||union policies,NOT_TERM
+A-114,32021B0417_seg_509||work carried out,NOT_TERM
+A-115,32021B0417_seg_556||(eu) no 1301/2013,NOT_TERM
+A-116,32013R0575_seg_18||review,GENERIC
+A-117,32013R0575_seg_173||market,PARTIAL
+A-118,32021B0417_seg_1382||own resources,SPECIFIC
+A-119,32013R0575_seg_193||loan relationship,SPECIFIC
+A-120,32021B0417_seg_509||appropriations,SPECIFIC
