@@ -1,0 +1,22 @@
+# General-purpose configuration: no corpus paths or dataset-specific IDs.
+# Resource paths are relative to this file. Resources are not downloaded here.
+[parser]
+backend = "stanford_pcfg"
+parser_jar = "../resources/stanford-parser/stanford-parser.jar"
+models_jar = "../resources/stanford-parser/stanford-parser-3.5.2-models.jar"
+model_path = "edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz"
+sentence_segmentation = "single_unit"
+java_options = "-mx2g"
+
+[fastkassim]
+metric = "LTK"
+sigma = 1
+lmbda = 0.4
+average = false
+
+[retrieval]
+top_k = 3
+authorized_document_ids = []
+exclude_query_document = true
+exclude_same_text = true
+parse_cache_size = 1024

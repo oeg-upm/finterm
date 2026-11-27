@@ -1,0 +1,202 @@
+{
+  "model": "qwen3",
+  "model_id": "Qwen/Qwen3-14B",
+  "condition": "few_shot",
+  "prompt_version": "finance_entities_v2",
+  "program_version": "financial_sentence_extractor_v1",
+  "generation": {
+    "max_new_tokens": 512,
+    "do_sample": false,
+    "num_beams": 1,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null
+  },
+  "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+  "sentences": [
+    {
+      "identifier": "32021B0417_seg_48:sentence:000001",
+      "number": 1,
+      "start": 0,
+      "end": 870,
+      "text": "European Parliament\n\n \n\np.m.\n\nCouncil\n\n \n\np.m.\n\nCommission\n\n \n\np.m.\n\nCourt of Justice of the European Union\n\n \n\np.m.\n\nEuropean Court of Auditors\n\n \n\np.m.\n\nEuropean Economic and Social Committee\n\n \n\np.m.\n\nEuropean Committee of the Regions\n\n \n\np.m.\n\nEuropean Ombudsman\n\n \n\np.m.\n\nEuropean Data Protection Supervisor\n\n \n\np.m.\n\nEuropean External Action Service\n\n \n\np.m.\n\n \n\nTotal\n\np.m.\n\n 3 3 1\nRevenue for a specific purpose (income from foundations, subsidies, gifts and bequests) — Assigned revenue\n\nFinancial year 2021\n\nFinancial year 2020\n\nFinancial year 2019\n\np.m.\n\np.m.\n\n1 389 598,33 \n\nRemarks\n\nIn accordance with point (d) of Article 21(2) of the Financial Regulation, this revenue is to be considered as assigned revenue and gives rise to the entry of additional appropriations on the lines which bore the initial expenditure giving rise to the corresponding revenue.",
+      "terms": [
+        "European Parliament",
+        "Council",
+        "Commission",
+        "Court of Justice of the European Union",
+        "European Court of Auditors",
+        "European Economic and Social Committee",
+        "European Committee of the Regions",
+        "European Ombudsman",
+        "European Data Protection Supervisor",
+        "European External Action Service",
+        "Revenue for a specific purpose",
+        "Assigned revenue",
+        "Financial year",
+        "Financial Regulation",
+        "additional appropriations",
+        "initial expenditure"
+      ],
+      "prompt": [
+        {
+          "role": "system",
+          "content": "You are an expert terminologist specialised in the Finance domain."
+        },
+        {
+          "role": "user",
+          "content": "### Definition\nA term is \"the designation of a defined concept in a special language by a linguistic expression\" (ISO 1087). A term is a word or multiword expression with a specific meaning in a specialised domain.\n\n### Domain\nFinance (banking, accounting, financial markets, financial regulation).\n\n### Rules\n- Extract only terms relevant to the specified domain.\n- Extract terms exactly as they appear in the text (same word form and spelling).\n- If a multiword term contains shorter terms that are also terms on their own, extract both, when permitted by the annotation policy.\n- Do NOT extract: numbers, dates, monetary amounts, percentages, or general-language words without a specialised meaning in the specified domain.\n- If there are no terms, return an empty list.\n- For this task, output specialised financial terms AND relevant named financial entities in the same terms list. Include a name only when it designates a financial institution or a directly relevant financial organisation in this sentence, such as a bank, central bank, insurer, investment fund, financial supervisor or financial-market infrastructure.\n- Do not include person names, standalone geographic names or unrelated companies and organisations merely because they occur in a financial text. Keep geographic words when they are part of the complete name of a relevant financial institution.\n- Preserve each selected expression exactly as it appears in the text; do not invent, translate, expand or abbreviate entity names.\n\n### Examples\n\nText: When a quasi-corporation makes a trading profit, the unit which owns it may choose to leave part or all of the profit in the business, especially for investment purposes.\nOutput: {\"terms\": [\"quasi-corporation\", \"trading profit\", \"profit\", \"investment\"]}\n\nText: If the tax credit system results in the beneficiary receiving the excess when the relief is greater than the liability, the tax credits system is a payable tax credit system.\nOutput: {\"terms\": [\"tax credit system\", \"tax credit\", \"tax\", \"liability\", \"tax credits system\", \"tax credits\", \"payable tax credit system\", \"payable tax credit\"]}\n\nText: A further breakdown of debt securities denominated in various foreign currencies may be appropriate and will vary depending on the relative importance of the individual foreign currencies for an economy.\nOutput: {\"terms\": [\"debt securities\", \"debt\", \"securities\", \"foreign currencies\", \"currencies\"]}\n\n### Text\nEuropean Parliament\n\n \n\np.m.\n\nCouncil\n\n \n\np.m.\n\nCommission\n\n \n\np.m.\n\nCourt of Justice of the European Union\n\n \n\np.m.\n\nEuropean Court of Auditors\n\n \n\np.m.\n\nEuropean Economic and Social Committee\n\n \n\np.m.\n\nEuropean Committee of the Regions\n\n \n\np.m.\n\nEuropean Ombudsman\n\n \n\np.m.\n\nEuropean Data Protection Supervisor\n\n \n\np.m.\n\nEuropean External Action Service\n\n \n\np.m.\n\n \n\nTotal\n\np.m.\n\n 3 3 1\nRevenue for a specific purpose (income from foundations, subsidies, gifts and bequests) — Assigned revenue\n\nFinancial year 2021\n\nFinancial year 2020\n\nFinancial year 2019\n\np.m.\n\np.m.\n\n1 389 598,33 \n\nRemarks\n\nIn accordance with point (d) of Article 21(2) of the Financial Regulation, this revenue is to be considered as assigned revenue and gives rise to the entry of additional appropriations on the lines which bore the initial expenditure giving rise to the corresponding revenue.\n\n### Output\nReturn only a JSON object with this format, with no additional text:\n{\"terms\": [\"term 1\", \"term 2\"]}"
+        }
+      ],
+      "error": null
+    },
+    {
+      "identifier": "32021B0417_seg_48:sentence:000002",
+      "number": 2,
+      "start": 871,
+      "end": 1739,
+      "text": "European Parliament\n\n \n\np.m.\n\nCouncil\n\n \n\np.m.\n\nCommission\n\n \n\np.m.\n\nCourt of Justice of the European Union\n\n \n\np.m.\n\nEuropean Court of Auditors\n\n \n\np.m.\n\nEuropean Economic and Social Committee\n\n \n\np.m.\n\nEuropean Committee of the Regions\n\n \n\np.m.\n\nEuropean Ombudsman\n\n \n\np.m.\n\nEuropean Data Protection Supervisor\n\n \n\np.m.\n\nEuropean External Action Service\n\n \n\np.m.\n\n \n\nTotal\n\np.m.\n\n 3 3 2\nRevenue from the Commission contribution to EEAS for Commission staff working in Union delegations — Assigned revenue\n\nFinancial year 2021\n\nFinancial year 2020\n\nFinancial year 2019\n\np.m.\n\np.m.\n\n194 900 519,93 \n\nRemarks\n\nThis revenue arises from a Commission contribution to the European External Action Service (EEAS) for covering locally managed expenses of Commission staff working in Union delegations, including Commission staff funded by the European Development Fund (EDF).",
+      "terms": [
+        "European Parliament",
+        "Council",
+        "Commission",
+        "Court of Justice of the European Union",
+        "European Court of Auditors",
+        "European Economic and Social Committee",
+        "European Committee of the Regions",
+        "European Ombudsman",
+        "European Data Protection Supervisor",
+        "European External Action Service",
+        "EEAS",
+        "Commission contribution",
+        "European Development Fund",
+        "EDF",
+        "Union delegations"
+      ],
+      "prompt": [
+        {
+          "role": "system",
+          "content": "You are an expert terminologist specialised in the Finance domain."
+        },
+        {
+          "role": "user",
+          "content": "### Definition\nA term is \"the designation of a defined concept in a special language by a linguistic expression\" (ISO 1087). A term is a word or multiword expression with a specific meaning in a specialised domain.\n\n### Domain\nFinance (banking, accounting, financial markets, financial regulation).\n\n### Rules\n- Extract only terms relevant to the specified domain.\n- Extract terms exactly as they appear in the text (same word form and spelling).\n- If a multiword term contains shorter terms that are also terms on their own, extract both, when permitted by the annotation policy.\n- Do NOT extract: numbers, dates, monetary amounts, percentages, or general-language words without a specialised meaning in the specified domain.\n- If there are no terms, return an empty list.\n- For this task, output specialised financial terms AND relevant named financial entities in the same terms list. Include a name only when it designates a financial institution or a directly relevant financial organisation in this sentence, such as a bank, central bank, insurer, investment fund, financial supervisor or financial-market infrastructure.\n- Do not include person names, standalone geographic names or unrelated companies and organisations merely because they occur in a financial text. Keep geographic words when they are part of the complete name of a relevant financial institution.\n- Preserve each selected expression exactly as it appears in the text; do not invent, translate, expand or abbreviate entity names.\n\n### Examples\n\nText: When a quasi-corporation makes a trading profit, the unit which owns it may choose to leave part or all of the profit in the business, especially for investment purposes.\nOutput: {\"terms\": [\"quasi-corporation\", \"trading profit\", \"profit\", \"investment\"]}\n\nText: If the tax credit system results in the beneficiary receiving the excess when the relief is greater than the liability, the tax credits system is a payable tax credit system.\nOutput: {\"terms\": [\"tax credit system\", \"tax credit\", \"tax\", \"liability\", \"tax credits system\", \"tax credits\", \"payable tax credit system\", \"payable tax credit\"]}\n\nText: A further breakdown of debt securities denominated in various foreign currencies may be appropriate and will vary depending on the relative importance of the individual foreign currencies for an economy.\nOutput: {\"terms\": [\"debt securities\", \"debt\", \"securities\", \"foreign currencies\", \"currencies\"]}\n\n### Text\nEuropean Parliament\n\n \n\np.m.\n\nCouncil\n\n \n\np.m.\n\nCommission\n\n \n\np.m.\n\nCourt of Justice of the European Union\n\n \n\np.m.\n\nEuropean Court of Auditors\n\n \n\np.m.\n\nEuropean Economic and Social Committee\n\n \n\np.m.\n\nEuropean Committee of the Regions\n\n \n\np.m.\n\nEuropean Ombudsman\n\n \n\np.m.\n\nEuropean Data Protection Supervisor\n\n \n\np.m.\n\nEuropean External Action Service\n\n \n\np.m.\n\n \n\nTotal\n\np.m.\n\n 3 3 2\nRevenue from the Commission contribution to EEAS for Commission staff working in Union delegations — Assigned revenue\n\nFinancial year 2021\n\nFinancial year 2020\n\nFinancial year 2019\n\np.m.\n\np.m.\n\n194 900 519,93 \n\nRemarks\n\nThis revenue arises from a Commission contribution to the European External Action Service (EEAS) for covering locally managed expenses of Commission staff working in Union delegations, including Commission staff funded by the European Development Fund (EDF).\n\n### Output\nReturn only a JSON object with this format, with no additional text:\n{\"terms\": [\"term 1\", \"term 2\"]}"
+        }
+      ],
+      "error": null
+    },
+    {
+      "identifier": "32021B0417_seg_48:sentence:000003",
+      "number": 3,
+      "start": 1740,
+      "end": 1969,
+      "text": "In accordance with Article 21(2) and (3) of the Financial Regulation, any revenue will be used to provide additional appropriations for Item 3 0 0 5 in the statement of expenditure in Section X ‘European External Action Service’.",
+      "terms": [
+        "Financial Regulation",
+        "revenue",
+        "additional appropriations",
+        "statement of expenditure",
+        "European External Action Service"
+      ],
+      "prompt": [
+        {
+          "role": "system",
+          "content": "You are an expert terminologist specialised in the Finance domain."
+        },
+        {
+          "role": "user",
+          "content": "### Definition\nA term is \"the designation of a defined concept in a special language by a linguistic expression\" (ISO 1087). A term is a word or multiword expression with a specific meaning in a specialised domain.\n\n### Domain\nFinance (banking, accounting, financial markets, financial regulation).\n\n### Rules\n- Extract only terms relevant to the specified domain.\n- Extract terms exactly as they appear in the text (same word form and spelling).\n- If a multiword term contains shorter terms that are also terms on their own, extract both, when permitted by the annotation policy.\n- Do NOT extract: numbers, dates, monetary amounts, percentages, or general-language words without a specialised meaning in the specified domain.\n- If there are no terms, return an empty list.\n- For this task, output specialised financial terms AND relevant named financial entities in the same terms list. Include a name only when it designates a financial institution or a directly relevant financial organisation in this sentence, such as a bank, central bank, insurer, investment fund, financial supervisor or financial-market infrastructure.\n- Do not include person names, standalone geographic names or unrelated companies and organisations merely because they occur in a financial text. Keep geographic words when they are part of the complete name of a relevant financial institution.\n- Preserve each selected expression exactly as it appears in the text; do not invent, translate, expand or abbreviate entity names.\n\n### Examples\n\nText: When a quasi-corporation makes a trading profit, the unit which owns it may choose to leave part or all of the profit in the business, especially for investment purposes.\nOutput: {\"terms\": [\"quasi-corporation\", \"trading profit\", \"profit\", \"investment\"]}\n\nText: If the tax credit system results in the beneficiary receiving the excess when the relief is greater than the liability, the tax credits system is a payable tax credit system.\nOutput: {\"terms\": [\"tax credit system\", \"tax credit\", \"tax\", \"liability\", \"tax credits system\", \"tax credits\", \"payable tax credit system\", \"payable tax credit\"]}\n\nText: A further breakdown of debt securities denominated in various foreign currencies may be appropriate and will vary depending on the relative importance of the individual foreign currencies for an economy.\nOutput: {\"terms\": [\"debt securities\", \"debt\", \"securities\", \"foreign currencies\", \"currencies\"]}\n\n### Text\nIn accordance with Article 21(2) and (3) of the Financial Regulation, any revenue will be used to provide additional appropriations for Item 3 0 0 5 in the statement of expenditure in Section X ‘European External Action Service’.\n\n### Output\nReturn only a JSON object with this format, with no additional text:\n{\"terms\": [\"term 1\", \"term 2\"]}"
+        }
+      ],
+      "error": null
+    },
+    {
+      "identifier": "32021B0417_seg_48:sentence:000004",
+      "number": 4,
+      "start": 1970,
+      "end": 2316,
+      "text": "European External Action Service\n\n \n\np.m.\n\n 3 3 3\nInsurance payments received — Assigned revenue\n\nFinancial year 2021\n\nFinancial year 2020\n\nFinancial year 2019\n\np.m.\n\np.m.\n\n1 093 525,29 \n\nRemarks\n\nThis article is also intended to record revenue arising from reimbursement by insurance companies of the salaries of officials involved in accidents.",
+      "terms": [
+        "Insurance payments received",
+        "Assigned revenue",
+        "Financial year",
+        "reimbursement",
+        "insurance companies",
+        "salaries",
+        "officials",
+        "accidents"
+      ],
+      "prompt": [
+        {
+          "role": "system",
+          "content": "You are an expert terminologist specialised in the Finance domain."
+        },
+        {
+          "role": "user",
+          "content": "### Definition\nA term is \"the designation of a defined concept in a special language by a linguistic expression\" (ISO 1087). A term is a word or multiword expression with a specific meaning in a specialised domain.\n\n### Domain\nFinance (banking, accounting, financial markets, financial regulation).\n\n### Rules\n- Extract only terms relevant to the specified domain.\n- Extract terms exactly as they appear in the text (same word form and spelling).\n- If a multiword term contains shorter terms that are also terms on their own, extract both, when permitted by the annotation policy.\n- Do NOT extract: numbers, dates, monetary amounts, percentages, or general-language words without a specialised meaning in the specified domain.\n- If there are no terms, return an empty list.\n- For this task, output specialised financial terms AND relevant named financial entities in the same terms list. Include a name only when it designates a financial institution or a directly relevant financial organisation in this sentence, such as a bank, central bank, insurer, investment fund, financial supervisor or financial-market infrastructure.\n- Do not include person names, standalone geographic names or unrelated companies and organisations merely because they occur in a financial text. Keep geographic words when they are part of the complete name of a relevant financial institution.\n- Preserve each selected expression exactly as it appears in the text; do not invent, translate, expand or abbreviate entity names.\n\n### Examples\n\nText: When a quasi-corporation makes a trading profit, the unit which owns it may choose to leave part or all of the profit in the business, especially for investment purposes.\nOutput: {\"terms\": [\"quasi-corporation\", \"trading profit\", \"profit\", \"investment\"]}\n\nText: If the tax credit system results in the beneficiary receiving the excess when the relief is greater than the liability, the tax credits system is a payable tax credit system.\nOutput: {\"terms\": [\"tax credit system\", \"tax credit\", \"tax\", \"liability\", \"tax credits system\", \"tax credits\", \"payable tax credit system\", \"payable tax credit\"]}\n\nText: A further breakdown of debt securities denominated in various foreign currencies may be appropriate and will vary depending on the relative importance of the individual foreign currencies for an economy.\nOutput: {\"terms\": [\"debt securities\", \"debt\", \"securities\", \"foreign currencies\", \"currencies\"]}\n\n### Text\nEuropean External Action Service\n\n \n\np.m.\n\n 3 3 3\nInsurance payments received — Assigned revenue\n\nFinancial year 2021\n\nFinancial year 2020\n\nFinancial year 2019\n\np.m.\n\np.m.\n\n1 093 525,29 \n\nRemarks\n\nThis article is also intended to record revenue arising from reimbursement by insurance companies of the salaries of officials involved in accidents.\n\n### Output\nReturn only a JSON object with this format, with no additional text:\n{\"terms\": [\"term 1\", \"term 2\"]}"
+        }
+      ],
+      "error": null
+    },
+    {
+      "identifier": "32021B0417_seg_48:sentence:000005",
+      "number": 5,
+      "start": 2317,
+      "end": 2591,
+      "text": "In accordance with point (d) of Article 21(3) of the Financial Regulation, this revenue is to be considered as assigned revenue and gives rise to the entry of additional appropriations on the lines which bore the initial expenditure giving rise to the corresponding revenue.",
+      "terms": [
+        "Financial Regulation",
+        "assigned revenue",
+        "additional appropriations",
+        "initial expenditure",
+        "revenue"
+      ],
+      "prompt": [
+        {
+          "role": "system",
+          "content": "You are an expert terminologist specialised in the Finance domain."
+        },
+        {
+          "role": "user",
+          "content": "### Definition\nA term is \"the designation of a defined concept in a special language by a linguistic expression\" (ISO 1087). A term is a word or multiword expression with a specific meaning in a specialised domain.\n\n### Domain\nFinance (banking, accounting, financial markets, financial regulation).\n\n### Rules\n- Extract only terms relevant to the specified domain.\n- Extract terms exactly as they appear in the text (same word form and spelling).\n- If a multiword term contains shorter terms that are also terms on their own, extract both, when permitted by the annotation policy.\n- Do NOT extract: numbers, dates, monetary amounts, percentages, or general-language words without a specialised meaning in the specified domain.\n- If there are no terms, return an empty list.\n- For this task, output specialised financial terms AND relevant named financial entities in the same terms list. Include a name only when it designates a financial institution or a directly relevant financial organisation in this sentence, such as a bank, central bank, insurer, investment fund, financial supervisor or financial-market infrastructure.\n- Do not include person names, standalone geographic names or unrelated companies and organisations merely because they occur in a financial text. Keep geographic words when they are part of the complete name of a relevant financial institution.\n- Preserve each selected expression exactly as it appears in the text; do not invent, translate, expand or abbreviate entity names.\n\n### Examples\n\nText: When a quasi-corporation makes a trading profit, the unit which owns it may choose to leave part or all of the profit in the business, especially for investment purposes.\nOutput: {\"terms\": [\"quasi-corporation\", \"trading profit\", \"profit\", \"investment\"]}\n\nText: If the tax credit system results in the beneficiary receiving the excess when the relief is greater than the liability, the tax credits system is a payable tax credit system.\nOutput: {\"terms\": [\"tax credit system\", \"tax credit\", \"tax\", \"liability\", \"tax credits system\", \"tax credits\", \"payable tax credit system\", \"payable tax credit\"]}\n\nText: A further breakdown of debt securities denominated in various foreign currencies may be appropriate and will vary depending on the relative importance of the individual foreign currencies for an economy.\nOutput: {\"terms\": [\"debt securities\", \"debt\", \"securities\", \"foreign currencies\", \"currencies\"]}\n\n### Text\nIn accordance with point (d) of Article 21(3) of the Financial Regulation, this revenue is to be considered as assigned revenue and gives rise to the entry of additional appropriations on the lines which bore the initial expenditure giving rise to the corresponding revenue.\n\n### Output\nReturn only a JSON object with this format, with no additional text:\n{\"terms\": [\"term 1\", \"term 2\"]}"
+        }
+      ],
+      "error": null
+    },
+    {
+      "identifier": "32021B0417_seg_48:sentence:000006",
+      "number": 6,
+      "start": 2592,
+      "end": 3282,
+      "text": "European Parliament\n\n \n\np.m.\n\nCouncil\n\n \n\np.m.\n\nCommission\n\n \n\np.m.\n\nCourt of Justice of the European Union\n\n \n\np.m.\n\nEuropean Court of Auditors\n\n \n\np.m.\n\nEuropean Economic and Social Committee\n\n \n\np.m.\n\nEuropean Committee of the Regions\n\n \n\np.m.\n\nEuropean Ombudsman\n\n \n\np.m.\n\nEuropean Data Protection Supervisor\n\n \n\np.m.\n\nEuropean External Action Service\n\n \n\np.m.\n\n \n\nTotal\n\np.m.\n\n 3 3 8\nOther revenue from administrative operations — Assigned revenue\n\nFinancial year 2021\n\nFinancial year 2020\n\nFinancial year 2019\n\np.m.\n\np.m.\n\n152 857 707,79 \n\nRemarks\n\nThis article is intended to record other contributions and refunds in connection with the administrative operation of the institutions.",
+      "terms": [
+        "European Parliament",
+        "Council",
+        "Commission",
+        "Court of Justice of the European Union",
+        "European Court of Auditors",
+        "European Economic and Social Committee",
+        "European Committee of the Regions",
+        "European Ombudsman",
+        "European Data Protection Supervisor",
+        "European External Action Service",
+        "Other revenue from administrative operations",
+        "Assigned revenue",
+        "Financial year",
+        "administrative operation",
+        "institutions"
+      ],
+      "prompt": [
+        {
+          "role": "system",
+          "content": "You are an expert terminologist specialised in the Finance domain."
+        },
+        {
+          "role": "user",
+          "content": "### Definition\nA term is \"the designation of a defined concept in a special language by a linguistic expression\" (ISO 1087). A term is a word or multiword expression with a specific meaning in a specialised domain.\n\n### Domain\nFinance (banking, accounting, financial markets, financial regulation).\n\n### Rules\n- Extract only terms relevant to the specified domain.\n- Extract terms exactly as they appear in the text (same word form and spelling).\n- If a multiword term contains shorter terms that are also terms on their own, extract both, when permitted by the annotation policy.\n- Do NOT extract: numbers, dates, monetary amounts, percentages, or general-language words without a specialised meaning in the specified domain.\n- If there are no terms, return an empty list.\n- For this task, output specialised financial terms AND relevant named financial entities in the same terms list. Include a name only when it designates a financial institution or a directly relevant financial organisation in this sentence, such as a bank, central bank, insurer, investment fund, financial supervisor or financial-market infrastructure.\n- Do not include person names, standalone geographic names or unrelated companies and organisations merely because they occur in a financial text. Keep geographic words when they are part of the complete name of a relevant financial institution.\n- Preserve each selected expression exactly as it appears in the text; do not invent, translate, expand or abbreviate entity names.\n\n### Examples\n\nText: When a quasi-corporation makes a trading profit, the unit which owns it may choose to leave part or all of the profit in the business, especially for investment purposes.\nOutput: {\"terms\": [\"quasi-corporation\", \"trading profit\", \"profit\", \"investment\"]}\n\nText: If the tax credit system results in the beneficiary receiving the excess when the relief is greater than the liability, the tax credits system is a payable tax credit system.\nOutput: {\"terms\": [\"tax credit system\", \"tax credit\", \"tax\", \"liability\", \"tax credits system\", \"tax credits\", \"payable tax credit system\", \"payable tax credit\"]}\n\nText: A further breakdown of debt securities denominated in various foreign currencies may be appropriate and will vary depending on the relative importance of the individual foreign currencies for an economy.\nOutput: {\"terms\": [\"debt securities\", \"debt\", \"securities\", \"foreign currencies\", \"currencies\"]}\n\n### Text\nEuropean Parliament\n\n \n\np.m.\n\nCouncil\n\n \n\np.m.\n\nCommission\n\n \n\np.m.\n\nCourt of Justice of the European Union\n\n \n\np.m.\n\nEuropean Court of Auditors\n\n \n\np.m.\n\nEuropean Economic and Social Committee\n\n \n\np.m.\n\nEuropean Committee of the Regions\n\n \n\np.m.\n\nEuropean Ombudsman\n\n \n\np.m.\n\nEuropean Data Protection Supervisor\n\n \n\np.m.\n\nEuropean External Action Service\n\n \n\np.m.\n\n \n\nTotal\n\np.m.\n\n 3 3 8\nOther revenue from administrative operations — Assigned revenue\n\nFinancial year 2021\n\nFinancial year 2020\n\nFinancial year 2019\n\np.m.\n\np.m.\n\n152 857 707,79 \n\nRemarks\n\nThis article is intended to record other contributions and refunds in connection with the administrative operation of the institutions.\n\n### Output\nReturn only a JSON object with this format, with no additional text:\n{\"terms\": [\"term 1\", \"term 2\"]}"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

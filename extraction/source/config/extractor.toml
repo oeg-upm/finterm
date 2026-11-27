@@ -1,0 +1,8 @@
+# Routing defaults only. Domain/policy, model profiles, candidates and an optional
+# demonstration bank are supplied by the caller through the approved interfaces.
+[extractor]
+default_model = "qwen3"
+default_condition = "basic"
+
+# DiSTER must be selected explicitly with condition = "native_zero_shot".
+# The integrated few_shot condition always requests exactly three examples.

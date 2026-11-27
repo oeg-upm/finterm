@@ -1,0 +1,8 @@
+{
+  "Qwen zero-shot": "no complete archived example in supplied six-condition summary",
+  "Qwen few-shot": "archived prompt example available",
+  "Gemma zero-shot": "archived prompt example available",
+  "Gemma few-shot": "archived prompt example available",
+  "DiSTER zero-shot": "no complete archived example in supplied six-condition summary",
+  "DiSTER few-shot": "no complete archived example in supplied six-condition summary"
+}

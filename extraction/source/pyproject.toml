@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finterm-syntactic-retrieval"
+version = "0.2.0"
+description = "FINTERM financial sentence extractor with three local LLMs and optional FastKASSIM"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+finterm-finance = "extractor.cli:main"
+
+[project.optional-dependencies]
+text = ["nltk>=3.10.4,<4"]
+# Prepare only in an authorized environment. This installs source/library code,
+# not Stanford JARs, Punkt resources, parsers, LLMs, or any model weights.
+syntax = [
+    "fkassim @ git+https://github.com/jasonyux/FastKASSIM.git@a6842158ae8e958ae665d72c27b7606f93be39a6",
+    "nltk>=3.9.4,<4",
+    "numpy>=1.26,<3",
+    "scipy>=1.11,<2",
+    "zss>=1.2,<2",
+]
+# Optional inference stack for a later authorized H100 run. Not installed here.
+llm = [
+    "transformers>=4.57.1,<5",
+    "torch>=2.6,<3",
+    "accelerate>=1.2,<2",
+    "safetensors>=0.4.3",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["syntactic_retrieval*", "prompts*", "llm_adapters*", "extractor*", "corpus_readers*", "experimental_evaluation*", "demonstrations*", "config*"]
+exclude = ["demonstrations.candidate_tests*"]
+
+[tool.setuptools.package-data]
+demonstrations = ["*.jsonl"]
+config = ["*.toml"]

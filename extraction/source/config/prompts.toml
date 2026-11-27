@@ -1,0 +1,49 @@
+# Text-only configuration for all four conditions. No corpus/model paths.
+conditions = ["basic", "patterns", "few_shot", "hybrid"]
+few_shot_examples = 3
+
+[domains.finance]
+name = "Finance"
+description = "Finance (banking, accounting, financial markets, financial regulation)."
+exclude_named_entities = true
+# Preserve the original annotation guidelines’ conditional wording. The silver does not encode a complete
+# nesting policy; no automatic rewriting/filtering of its .key files is implied.
+nested_terms = "when_permitted"
+include_acronyms = true
+structure_profile = "financial"
+boundary_example = ["the higher interest rate", "interest rate"]
+
+[domains.corruption]
+name = "corruption"
+description = "Corruption."
+exclude_named_entities = true
+nested_terms = "longest_only"
+include_acronyms = true
+structure_profile = "general"
+
+[domains.equitation_dressage]
+name = "equitation/dressage"
+description = "Equitation/dressage."
+exclude_named_entities = true
+nested_terms = "longest_only"
+include_acronyms = true
+structure_profile = "general"
+
+[domains.heart_failure]
+name = "heart failure"
+description = "Heart failure."
+exclude_named_entities = true
+nested_terms = "longest_only"
+include_acronyms = true
+structure_profile = "general"
+
+[domains.wind_energy]
+name = "wind energy"
+description = "Wind energy."
+exclude_named_entities = true
+nested_terms = "longest_only"
+include_acronyms = true
+structure_profile = "general"
+
+# A caller can override structure_lines/acronym_structure within a domain table,
+# or pass a StructureGuide in Python. These are linguistic hints, not matchers.

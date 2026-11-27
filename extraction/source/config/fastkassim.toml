@@ -1,0 +1,33 @@
+# Paths are relative to THIS file, not to the process working directory.
+# Location metadata only: this phase does not read/build either demonstration bank.
+[corpora]
+root = "../../Corpus para LLM"
+acter = "../../Corpus para LLM/ACTER-master"
+financial_texts = "../../Corpus para LLM/Corpus financiero/Silver Standard/docsutf8"
+financial_annotations = "../../Corpus para LLM/Corpus financiero/Silver Standard/gold"
+
+[parser]
+backend = "stanford_pcfg"
+# Resource paths for a later authorized run; no resources are downloaded here.
+parser_jar = "../resources/stanford-parser/stanford-parser.jar"
+models_jar = "../resources/stanford-parser/stanford-parser-3.5.2-models.jar"
+model_path = "edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz"
+# Article input units are sentences. 'punkt' is available for multi-sentence text,
+# but requires previously provisioned English Punkt/punkt_tab resources.
+sentence_segmentation = "single_unit"
+java_options = "-mx2g"
+
+[fastkassim]
+metric = "LTK"
+sigma = 1
+lmbda = 0.4
+average = false
+
+[retrieval]
+top_k = 3
+# No corpus partition has been authorized/created: empty means authorize NONE.
+# Use namespaced document IDs (e.g. 'ACTER:wind_en_01', 'CELEX:32013R0549').
+authorized_document_ids = []
+exclude_query_document = true
+exclude_same_text = true
+parse_cache_size = 1024
