@@ -1,0 +1,18 @@
+fewshot_example_id,defterm_input_id,term,qid,label_en,evidence_profile,evidence_sparsity,defterm_evidence_text,manual_definition,manual_status,manual_notes
+fewshot_example_14c6d97289d9dd5a1aa2251a790c54448c353a6b9a786025ff7b5a0c2a97c8ff,defterm_input_96ad541f3cb9c06905bb238eb3d5bdcc6e8bbd7dca17e60350930e3a703ed2b1,European Central Bank,Q76161279,European Central Bank 2014 data breach,P31_ONLY,SINGLE_STRUCTURED_RELATION,"Label: European Central Bank 2014 data breach
+Instance of: data breach",Data breach involving the European Central Bank in 2014.,APPROVED_MANUAL,SPARSE_P31_CONSERVATIVE
+fewshot_example_03ba6e734fee7cbbde5556d8264c07eb8afa490939f1032bcd17624ec47e943c,defterm_input_c6ac6ac4ffd521a9204a02e14c13f572f5600eb6abd2a48a955960d25c1ea793,regulation,Q18845817,Regulation of Taiwan,P279_ONLY,SINGLE_STRUCTURED_RELATION,"Label: Regulation of Taiwan
+Subclass of: ordinance",Ordinance concerning Taiwan.,APPROVED_MANUAL,SPARSE_P279_CONSERVATIVE
+fewshot_example_39070715d25cf48e921dde40c9eb244b3fda6b25269a1c09968e40123be65c10,defterm_input_f19b649900c47bdc7d714ae4c5e685225efa1e7d9719908407ff0c1247afc2a6,Commission,Q2986626,Commission d'enrichissement de la langue française,ALIASES_P31,MULTIPLE_EVIDENCE,"Label: Commission d'enrichissement de la langue française
+Aliases: Commission générale de terminologie et de néologie
+Instance of: Commission and consultative or deliberative ministerial body",Commission and consultative or deliberative ministerial body also known as Commission générale de terminologie et de néologie.,APPROVED_MANUAL,ALIASES_P31_CONSERVATIVE
+fewshot_example_6a3b428be877df6121ccd5a9614364d421e37a24821864640fa5d077dbc8656e,defterm_input_90410b9ce235267377b4b890af07a1693749b38a94f6ee91a5a0f586d8d3f970,ESA,Q5358555,electrostatic analyzer,ALIASES_P279,MULTIPLE_EVIDENCE,"Label: electrostatic analyzer
+Aliases: ESA
+Subclass of: device","Device that is an electrostatic analyzer, also known as ESA.",APPROVED_MANUAL,ALIASES_P279_CONSERVATIVE
+fewshot_example_137720701ea85ed30d3a7a4d95eb93cea47f0a727ea1b65334365bd3f28dfbd0,defterm_input_9ec1e1caf76510764eec9989651a3a53c45761fafeeeea4416fa06c3cfff681c,structure,Q28659665,structure with developmental contribution from neural crest,P31_P279,MULTIPLE_EVIDENCE,"Label: structure with developmental contribution from neural crest
+Instance of: anatomical entity class type; class of anatomical entity
+Subclass of: anatomical structure",Anatomical structure with developmental contribution from neural crest.,APPROVED_MANUAL,P31_P279_CONSERVATIVE
+fewshot_example_22b8ab74f84646cabf45dd3f1ede5be110459aa395a36810808631301c3a39f4,defterm_input_a021b357c51e51576bdb5b6a6328dff90237829b684415ba136222b18b8d648a,covering,Q134100366,Penance hood,ALIASES_P31_P279,MULTIPLE_EVIDENCE,"Label: Penance hood
+Aliases: covering face
+Instance of: headgear
+Subclass of: hood",Hood that is classified as headgear and is also known as 'covering face'.,APPROVED_MANUAL,ALIASES_P31_P279_CONSERVATIVE

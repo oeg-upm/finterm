@@ -1,0 +1,15 @@
+{
+  "work_dir": "../../finterm_runs/full",
+  "mode": "full",
+  "similarity_mode": "h100",
+  "offline": false,
+  "search_policy": "historical",
+  "translation_policy": "historical",
+  "preselection_policy": "conservative",
+  "qwen14_hub_cache": "../../finterm_resources/qwen14_hub",
+  "embedding_resource_dir": "../../finterm_resources/qwen3_embedding4b",
+  "max_translations": 128,
+  "max_gate_calls": 16,
+  "max_definition_calls": 8,
+  "max_new_embeddings": 512
+}

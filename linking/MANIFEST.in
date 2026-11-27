@@ -1,0 +1,11 @@
+include README.md pyproject.toml
+recursive-include finterm_linking/_vendor *.py *.csv *.json *.txt *.md
+recursive-include docs *.md *.json *.ipynb
+recursive-include requirements *.txt
+recursive-include examples *.py *.json *.txt
+recursive-include configs *.json
+recursive-include tests *.py *.txt *.json
+recursive-include scripts *.py
+global-exclude *.pyc *.sqlite *.sqlite3 *.db *.safetensors *.whl
+prune build
+prune dist

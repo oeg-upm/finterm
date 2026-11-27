@@ -1,0 +1,38 @@
+[
+  {
+    "document_id": "account_brokerage_001",
+    "text": "Before investing in the stock market, you must deposit funds into your brokerage account.",
+    "terms": ["account"],
+    "purpose": "Financial end-to-end ranking; no reference QID is supplied."
+  },
+  {
+    "document_id": "monetary_policy_example",
+    "text": "The European Central Bank lowered interest rates by 25 basis points, while commercial banks adjusted deposit pricing.",
+    "terms": ["European Central Bank", "interest rates", "basis points", "commercial banks"],
+    "purpose": "Financial retrieval and multilingual evidence; generation depends on actual candidate state."
+  },
+  {
+    "document_id": "ordinance_mechanism_probe",
+    "text": "Researchers examined the Regulation of Taiwan as an example of an ordinance.",
+    "terms": ["Regulation of Taiwan"],
+    "purpose": "Natural named query suggested by existing few-shot evidence; functional smoke, not independent accuracy evaluation."
+  },
+  {
+    "document_id": "analyzer_mechanism_probe",
+    "text": "An electrostatic analyzer measures the energy of charged particles in the detector.",
+    "terms": ["electrostatic analyzer"],
+    "purpose": "Additional original-evidence mechanism probe; never remove a live description or force eligibility."
+  },
+  {
+    "document_id": "anatomical_class_mechanism_probe",
+    "text": "Embryologists compared a structure with developmental contribution from neural crest across specimens.",
+    "terms": ["structure with developmental contribution from neural crest"],
+    "purpose": "Specific class suggested by an existing approved example; normal retrieval, no injected QID."
+  },
+  {
+    "document_id": "hood_mechanism_probe",
+    "text": "The museum catalogued a Penance hood as a form of ceremonial headgear.",
+    "terms": ["Penance hood"],
+    "purpose": "Additional structured-evidence probe; a live English description correctly suppresses DefTerm."
+  }
+]

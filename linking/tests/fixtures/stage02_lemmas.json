@@ -1,0 +1,11 @@
+{
+  "schema_version": "terminlink-recorded-lemmas-v1",
+  "language": "en",
+  "data_provenance": "CONTROLLED_FIXTURE_NOT_A_POS_MODEL_RUN",
+  "entries": {
+    "lunar rover": null,
+    "basalt": null,
+    "samples": "sample",
+    "missing mineral": null
+  }
+}

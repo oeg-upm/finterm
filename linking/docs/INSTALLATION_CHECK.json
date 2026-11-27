@@ -1,0 +1,17 @@
+{
+  "schema_version": "finterm-installation-check-v0.1",
+  "wheel": "finterm_linker-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "9f852d9dd2d0648f27be1430c80fdf044a953ff2759b0b313b33d831d9b610e1",
+  "wheel_size_bytes": 234650,
+  "wheel_entries": 42,
+  "standalone_api": true,
+  "original_source_files_verified": 26,
+  "cli_outside_checkout": true,
+  "cli_entry_point_present": true,
+  "global_install_performed": false,
+  "model_dependencies_installed": false,
+  "network_used": false,
+  "models_executed": false,
+  "temporary_build_not_in_distribution": true,
+  "full_h100_validated": false
+}

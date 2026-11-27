@@ -1,0 +1,9 @@
+{
+  "work_dir": "../../finterm_runs/quick",
+  "mode": "quick",
+  "similarity_mode": "prepare",
+  "offline": false,
+  "search_policy": "historical",
+  "translation_policy": "historical",
+  "preselection_policy": "conservative"
+}

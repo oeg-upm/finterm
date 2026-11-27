@@ -1,0 +1,14 @@
+# Dependencias normales del enlazador: entorno Qwen validado con Python 3.11/H100.
+# El pin +cu126 conserva PyTorch CUDA 12.6 y excluye las variantes CPU.
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.10.0+cu126
+transformers==4.57.6
+sentence-transformers==5.2.0
+accelerate==1.15.0
+bitsandbytes==0.50.2
+
+# Dependencias utilizadas directamente por Qwen, con los límites de Transformers 4.57.6.
+# pip conserva las versiones ya instaladas que satisfagan estos requisitos.
+huggingface-hub>=0.34.0,<1.0
+tokenizers>=0.22.0,<=0.23.0
+safetensors>=0.4.3

@@ -1,0 +1,342 @@
+{
+  "schema_version": "finterm-distribution-manifest-v1",
+  "version": "0.1.0",
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 87,
+      "sha256": "be413e5c205ab287d48d26319ed746f5d27f315cb2cb268f234ff586c3c1084f"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 246,
+      "sha256": "0cb54706f0dd9c518c38971ecec759ac929b506f8276910a19f691d470391864"
+    },
+    {
+      "path": "MANIFEST.in",
+      "size_bytes": 423,
+      "sha256": "d8fed80a9b3e25946da239eeb169bf270cab94b0514cf1d36fa267d99a4ccba5"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 5075,
+      "sha256": "c192675e0cceebcb61e01d0cc40774cfdaf3cd8e8e44213f49de92815a1278db"
+    },
+    {
+      "path": "configs/full_h100.example.json",
+      "size_bytes": 465,
+      "sha256": "6980a5c69759cc7d8445745545be6ad2d4fad2e9ec30405a5994c606b0a7f96d"
+    },
+    {
+      "path": "configs/quick_prepare.json",
+      "size_bytes": 228,
+      "sha256": "c09a9063415d4deada2c2d1ebc9f7446638ae1523e5058f3893e6928e426ac4c"
+    },
+    {
+      "path": "docs/H100_FULL_VALIDATION.ipynb",
+      "size_bytes": 5322,
+      "sha256": "a80e3bbc34d2829a92428219e7f133626a2ab572c115bd9fbbe09a92a15eaf7f"
+    },
+    {
+      "path": "docs/H100_VALIDATION.md",
+      "size_bytes": 5178,
+      "sha256": "610fca1e79517e9611afd482b94ab7e1d27116073456805554820d4c7b9a264a"
+    },
+    {
+      "path": "docs/INSTALL.md",
+      "size_bytes": 4601,
+      "sha256": "65c3abbc5318a9d79c3ff1de3dc4b6747f6ef6b3ed54e04eec15fb24d38d7dc8"
+    },
+    {
+      "path": "docs/INSTALLATION_CHECK.json",
+      "size_bytes": 592,
+      "sha256": "e11d7d2fb0e2d1c231db26136934aabbc273685ae8585f4f085bcbabf40f7175"
+    },
+    {
+      "path": "docs/LOCAL_VALIDATION.json",
+      "size_bytes": 617,
+      "sha256": "96d39035fe27ab65aa7d40bf72a8cc325a05d21f3c5a971be469e84073c94086"
+    },
+    {
+      "path": "docs/PENDING.md",
+      "size_bytes": 2835,
+      "sha256": "f35fe8f72ed10e67160635d0e1ceb89ca7ba25197027fbfda6ed319fd4aaa35e"
+    },
+    {
+      "path": "examples/financial_cases.json",
+      "size_bytes": 1941,
+      "sha256": "4e553363a3f3032ba00654ef0052d13bb2b265352639970e76cf702621d76a41"
+    },
+    {
+      "path": "examples/financial_example.py",
+      "size_bytes": 1041,
+      "sha256": "c3faa688cc03830d8a57527896bdd9ab1ad651262c7ae22b8b45515e0053f5e0"
+    },
+    {
+      "path": "finterm_linking/__init__.py",
+      "size_bytes": 517,
+      "sha256": "d8fe911513b20052449681bb36c12b9ff3a46986ca04102e9e2ea1cd230765ad"
+    },
+    {
+      "path": "finterm_linking/__main__.py",
+      "size_bytes": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "finterm_linking/_runtime.py",
+      "size_bytes": 6013,
+      "sha256": "722b324ccfc885bce99531b09938d18d293baf4fd9f92d4b965a35cf6b03551a"
+    },
+    {
+      "path": "finterm_linking/_vendor/SHA256_MANIFEST.json",
+      "size_bytes": 4823,
+      "sha256": "00a9640aa651c69567f4e40e652219ee0e5b741323542b1c549047aadb605812"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/01_extraer_contextos.py",
+      "size_bytes": 38035,
+      "sha256": "04943a06dd2b768b64d710b3b3e6b20a6c21bdfa52aa6eabbb545efeb73d4b84"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/02_wikidata_candidatos.py",
+      "size_bytes": 53636,
+      "sha256": "9a04f568dd9d4916ff8368be61e02298d3fd3df8ba422bd8bd0d9e41f02ae3ae"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/03_preparar_representaciones.py",
+      "size_bytes": 19885,
+      "sha256": "1b75e33dadbce8a03fcfbcc28e9dea90583a229efba6f7d397cd744b242ac3c9"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/03_preparar_traducciones_contextualizadas.py",
+      "size_bytes": 36552,
+      "sha256": "af2bfbbb12a07958a3fafcdadbac2795d3e36ccefd2a99c1fb4a18059e13ca13"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/03_revalidar_traducciones_contextualizadas_qwen14_v2.py",
+      "size_bytes": 61872,
+      "sha256": "6746f578e6ab5c378dcb8d3e966b791a46893469a7a4795cc3ce614999ade285"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/04_preparar_defterm_contextual_v2.py",
+      "size_bytes": 65639,
+      "sha256": "f3cda6af392e4ca531e649e540a70fae559e5bc6a6314d49c49a10683dcb50df"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/05_consolidar_sentidos2_final.py",
+      "size_bytes": 49619,
+      "sha256": "f8ea1d300775885206cf434aa47d6da16945439a7cfc9d38309cce2c249df654"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/05_defterm_qwen14_few_shot_contextual_v2_full.py",
+      "size_bytes": 22861,
+      "sha256": "33d84774e3d4502223f6ad63ca17e9de5e38c08cd97d714a249bd38bcd4dfd2a"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/05_defterm_qwen14_sufficiency_gate_fewshot.py",
+      "size_bytes": 71895,
+      "sha256": "09919221c1fb3680705dfed0e8888f2239e3b446fad6df34cf02f0dd426707cf"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/05_defterm_qwen14_sufficiency_gate_fewshot_full_v2.py",
+      "size_bytes": 30641,
+      "sha256": "3d34c795abe231f6a23a5f73f8901c83056ceca4437a1e6a3f4d4675b249d84d"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/05_fewshot_ejemplos_aprobados.csv",
+      "size_bytes": 2966,
+      "sha256": "ac83c1996824e1d2645fcbcc56fba14282572498da8000238c3a77d50b088026"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/05_preparar_defterm_post_gate.py",
+      "size_bytes": 20492,
+      "sha256": "03e9bc431127c75be27c2ba21233d31c1e3244a78139fb8d6f12aec452264d27"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/05_sufficiency_gate_fewshot_examples.csv",
+      "size_bytes": 5732,
+      "sha256": "70f1f056f7c8df92994f1474ff059be9c90218d5be0e214b3837157ca4079e73"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/docs/defterm.md",
+      "size_bytes": 23801,
+      "sha256": "0795790b6c212648c20b01de8a9416766b2bb806b1a9b2e35d70e40499b81237"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/docs/similitud_semantica.md",
+      "size_bytes": 17645,
+      "sha256": "0f8319e5e2deb9d1f027979c96451dbff3e5aec727376df81bb8f8e623addf87"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/finterm_defterm.py",
+      "size_bytes": 22829,
+      "sha256": "c72b57e1c69cf6d2811ca84ae8ef99e2eb38f4524842ae19de838c76f25ec9eb"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/finterm_defterm_store.py",
+      "size_bytes": 36818,
+      "sha256": "be7de93af998525e5fa3d2d6fa32d918912635f5b11e58968f54618091e2bbeb"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/finterm_sense2.py",
+      "size_bytes": 21009,
+      "sha256": "6b2a939bed19505d5f5e56f894cd428f9596f8bbf08556a16bcaf2a59613cd7f"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/finterm_sense2_qwen.py",
+      "size_bytes": 12915,
+      "sha256": "b6913cc0323ff7459f07cfe5096125fe1644cf9b4dfcf68495acea2bd19e4002"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/finterm_sense2_store.py",
+      "size_bytes": 21711,
+      "sha256": "cbf9a092601cf92db93e5eb9f43d2e07abf4fa966d1313624d60fcd660834c7e"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/finterm_similarity.py",
+      "size_bytes": 32311,
+      "sha256": "4630b84f63876b9177198dfac9ea0dd52e07ddda16ef8cf386d6e9155f9d6aaf"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/finterm_similarity_qwen.py",
+      "size_bytes": 15539,
+      "sha256": "06704cd3489fbd2dc6b8485bfe17732eaf6172ed4e3c959229b3a484e99be9dc"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/qwen14_contextual_v2_runtime.py",
+      "size_bytes": 24674,
+      "sha256": "408c5146a72f7657407404f9f059d1d1206bd95905368fa0d0acae52043ec793"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/requirements.txt",
+      "size_bytes": 565,
+      "sha256": "af48a706fd75a23a702b5a76e71f3ed766094e6bd1dcc13b2288eb3d18003fb2"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/terminlink_inputs.py",
+      "size_bytes": 5913,
+      "sha256": "b1b8dbef2b38966bc11e0dc0a59462f1f79b251491a3d736bfcbaeae6e271e46"
+    },
+    {
+      "path": "finterm_linking/_vendor/terminlink_en/terminlink_stage02.py",
+      "size_bytes": 38021,
+      "sha256": "cd1ed7e8ab16a2996da9109057ae90cd4b7ba9b82534f2c98f5f2cf3f1be5675"
+    },
+    {
+      "path": "finterm_linking/acceptance.py",
+      "size_bytes": 2187,
+      "sha256": "a99fc6991f1eff6aba5096f04f3ae34a6b786496e2fe31d5e0178de0a5f3d5a5"
+    },
+    {
+      "path": "finterm_linking/cli.py",
+      "size_bytes": 6477,
+      "sha256": "dfd0079ba84a1a7d7940758ef16b8e9b2c3e2a7e7cee864c504d9a34c20816d7"
+    },
+    {
+      "path": "finterm_linking/config.py",
+      "size_bytes": 5304,
+      "sha256": "2399ded015d537e902591e36e74cff51b4fac03481b477d6157becad9a975785"
+    },
+    {
+      "path": "finterm_linking/gpu_worker.py",
+      "size_bytes": 3585,
+      "sha256": "81fac802d84f00c3c3af46d539699ddfb9cd45f9b60c4631bac6ec41b2386589"
+    },
+    {
+      "path": "finterm_linking/orchestrator.py",
+      "size_bytes": 19010,
+      "sha256": "714a6c92760bcb1bbaa1e1f7591635827255c2ec391d8b3c80f8244619870a77"
+    },
+    {
+      "path": "finterm_linking/replay.py",
+      "size_bytes": 8557,
+      "sha256": "8dd5e868ecdfbf178f4729c702e32dedf35f13d050816e28ef6d2df4165f6dce"
+    },
+    {
+      "path": "finterm_linking/verification.py",
+      "size_bytes": 4462,
+      "sha256": "a80627bec4edfa7c77635edf83f25389908bf3bed19b783b3ad44af956ff2021"
+    },
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 724,
+      "sha256": "3b300b1bd18e0dd9713311219348f24decb8addb5286065f3263045b21d5bc5b"
+    },
+    {
+      "path": "requirements/h100-cu126.txt",
+      "size_bytes": 547,
+      "sha256": "d5ccd8063b442f1ff19f98c90097042fefd78925890663185ceca4dad4765756"
+    },
+    {
+      "path": "scripts/check_installation.py",
+      "size_bytes": 4673,
+      "sha256": "30feef5ec42b2b353283521bd7eeeced58d9db96e9f90c0e94e154b6adab368f"
+    },
+    {
+      "path": "scripts/provision_resources.py",
+      "size_bytes": 1870,
+      "sha256": "13a7b72025bf5f5e877883504c8558794ee946ffffa17796d02fc9bcd798e581"
+    },
+    {
+      "path": "scripts/run_offline_checks.py",
+      "size_bytes": 1600,
+      "sha256": "abfa6a5b95d3394a1d9485e8a6ba9ab2ea54bb26b8f09054781e8956b4d0e2bb"
+    },
+    {
+      "path": "scripts/verify_distribution.py",
+      "size_bytes": 3921,
+      "sha256": "3dd551ad457f52268faf5db6633206641e301aba32d5f2d020ada99f95d51c05"
+    },
+    {
+      "path": "tests/__init__.py",
+      "size_bytes": 82,
+      "sha256": "f4951f3d67ec4296e79198b971e6d8b0b59784dc523fb359b3f8968b4cf7cb48"
+    },
+    {
+      "path": "tests/fixtures/stage02_lemmas.json",
+      "size_bytes": 257,
+      "sha256": "1c386617c349f39a69390dcabd4be19e676e057ef75347b22ba616733a383647"
+    },
+    {
+      "path": "tests/fixtures/user_document.txt",
+      "size_bytes": 102,
+      "sha256": "49b34671b9d3efd0786b6a918c91b9bea5d47c8d132a22f834c0bf5f0cf9488e"
+    },
+    {
+      "path": "tests/fixtures/user_terms.txt",
+      "size_bytes": 43,
+      "sha256": "7c2f2b95bec8400fb52217132d18bc8c6c578237c10c37e457bf819f492bad0c"
+    },
+    {
+      "path": "tests/recovered_support.py",
+      "size_bytes": 6327,
+      "sha256": "e950921031885382e05db9e3b539227c8165e9fc3a359f57766e2f2c664e58ca"
+    },
+    {
+      "path": "tests/support.py",
+      "size_bytes": 6172,
+      "sha256": "38a61a7d213552010bac5656aef89d2e5d279706208c9ce57cf5587d0d85de23"
+    },
+    {
+      "path": "tests/test_external_account.py",
+      "size_bytes": 2106,
+      "sha256": "8f608028e70bf52f3fc0c085068a87f19aad83f39a821a3b5e804394f703535a"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "size_bytes": 12902,
+      "sha256": "a1f61281aa4f9613e375f5463d73b2389fd7fddd2ea1e2430b72b1e852331299"
+    },
+    {
+      "path": "tests/test_recovered_protocols.py",
+      "size_bytes": 4513,
+      "sha256": "90e3c9dd3b2117382cc3d4e661ad2c01ff4b27dda74076fd9e13847ed0f6a078"
+    },
+    {
+      "path": "tests/test_worker_cli.py",
+      "size_bytes": 6895,
+      "sha256": "29c80727cd583f1ecf31a5426592d21c652bfda38e1e9aada7ee949238227062"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Original validated direct versions, with the observed compatible tokenizers.
+# Python 3.11; CUDA-capable PyTorch, no weights are installed by pip.
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.10.0+cu126
+transformers==4.57.6
+sentence-transformers==5.2.0
+accelerate==1.15.0
+bitsandbytes==0.50.2
+huggingface-hub==0.36.2
+tokenizers==0.22.2
+safetensors==0.8.0
+spacy==3.8.18
+
+# en_core_web_sm==3.8.0 is a separate language-model resource; see INSTALL.md.
+# Transitive environment freeze is recorded during actual H100 acceptance.

@@ -1,0 +1,19 @@
+{
+  "schema_version": "finterm-offline-validation-v0.1",
+  "python": "3.13.5",
+  "platform": "Linux",
+  "tests_run": 28,
+  "failures": 0,
+  "errors": 0,
+  "skipped": [
+    {
+      "test": "test_exact_archived_scores_associations_states_and_top_views (tests.test_external_account.ExternalAccountTests.test_exact_archived_scores_associations_states_and_top_views)",
+      "reason": "Optional external account archive not configured"
+    }
+  ],
+  "external_account_archive_configured": false,
+  "real_model_modules_imported": [],
+  "h100_inference_executed": false,
+  "full_gpu_validated": false,
+  "successful": true
+}
