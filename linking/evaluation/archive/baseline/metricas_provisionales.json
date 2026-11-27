@@ -1,0 +1,19 @@
+{
+  "experimento": "EUROVOC_30_BASELINE_V1",
+  "casos": 30,
+  "recuperados": 29,
+  "referencias_puntuadas": 29,
+  "pares_con_similitud": 2530,
+  "filas_ranking_puntuadas": 2117,
+  "candidate_recall": 0.9666666666666667,
+  "hits_at_1": 0.3333333333333333,
+  "hits_at_5": 0.7333333333333333,
+  "mrr": 0.5005335134214445,
+  "aciertos_top1": 10,
+  "aciertos_top5": 22,
+  "contextos": "SINTETICOS",
+  "referencias": "QID_PROPUESTOS_PENDIENTES_VALIDACION",
+  "traducciones_nuevas": 0,
+  "definiciones_nuevas": 0,
+  "seleccion_final_qid_ejecutada": false
+}

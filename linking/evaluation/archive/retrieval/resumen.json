@@ -1,0 +1,12 @@
+{
+  "casos_previstos": 30,
+  "casos_fase02_completados": 30,
+  "referencias_propuestas_recuperadas": 29,
+  "referencias_propuestas_no_recuperadas": 1,
+  "cobertura_provisional_porcentaje": 96.6667,
+  "total_relaciones_candidato": 2424,
+  "politica": "historical",
+  "referencias_contextuales_validadas": false,
+  "ranking_semantico_ejecutado": false,
+  "contextos_sinteticos": true
+}

@@ -1,0 +1,67 @@
+caso,termino,oracion,celex,archivo_origen,sha256_archivo_origen,inicio_oracion_origen,fin_oracion_origen,inicio_termino_oracion,fin_termino_oracion,texto_encontrado
+celex_001,European Central Bank,"19.04
+
+The economic territory of the euro area consists of:
+
+(a)
+
+the economic territories of the Member States of the euro area; and
+
+(b)
+
+the economic territory of the European Central Bank.",32013R0549,segments/32013R0549_seg_413.txt,06c9e0118334312c26bc727eaf0371407a2d5f2f05e177963a983f8b1066bcdf,427,619,170,191,European Central Bank
+celex_002,central bank,"Exposures to Member States' central governments, and central banks denominated and funded in the domestic currency of that central government and central bank shall be assigned a risk weight of 0 %.",32013R0575,segments/32013R0575_seg_106.txt,477e220f478f7250088d668457214fc2391c2dd93d6d1b0bfb94c22e2c1dba91,2885,3083,146,158,central bank
+celex_004,banking supervision,"In July and September 2010, GHOS issued two further announcements on design and calibration of those new measures, and in December 2010, the Basel Committee on Banking Supervision (BCBS) published the final measures, that are referred to as the Basel III framework.",32013R0575,segments/32013R0575_seg_0.txt,594472bfdfeaecc3062717992495f88b46869ff6a841f3e9e634ae0fc8f1370d,1758,2023,160,179,Banking Supervision
+celex_005,credit institution,A credit institution may apply paragraph 2 only if it started to use the IRB Approach or the Advanced Measurements Approaches for the calculation of its capital requirements on or after 1 January 2010.,32013R0575,segments/32013R0575_seg_421.txt,1bbb23861c5fa67959d64e3c3f30e038ed3939d96189eb3195925b0aaeedf4f3,2097,2298,2,20,credit institution
+celex_007,financial market,"Considering the importance of the macroprudential and systemic risk for the financial market of the Member State concerned and therefore the need for rapid reaction, it is important that the time limit for such a Council decision is set to one month.",32013R0575,segments/32013R0575_seg_4.txt,dbf4c01d750771e67d1ebc1e3971e63c5b1b218fe15bad4271f7885b82a937ba,0,250,76,92,financial market
+celex_008,stock exchange,"When the transaction value is not known, it is approximated by the stock exchange quotation or market price for listed shares and by the market-equivalent value for unlisted shares.",32013R0549,segments/32013R0549_seg_176.txt,413777668e94d043c848554fa1328e34dfbf2d68453b321643eae8d5eee5234d,1599,1780,67,81,stock exchange
+celex_009,capital market,This does not apply to monies due from secured lending and capital market-driven transactions as defined in point (3) of Article 192 that are collateralised by liquid assets in accordance with Article 416 as referred to in point (d) of this paragraph.,32013R0575,segments/32013R0575_seg_368.txt,70f23b16d45df01b7345944f533dacde75e3c9de483496e4382feb721cdce768,1927,2178,59,73,capital market
+celex_010,financial instrument,"5.53
+
+Based on the principle of quadruple-entry accounting a from-whom-to-whom financial account has three dimensions: the financial instrument category, the sector of the debtor, and the sector of the creditor.",32013R0549,segments/32013R0549_seg_161.txt,543d4f3eac69eecc4b98898adb77de0ba8956892dcfa0aee7c758e59412c228c,0,211,123,143,financial instrument
+celex_011,bond,The situations referred to in points (a) to (f) of paragraph 1 shall also include collateral that is exclusively restricted by legislation to the protection of the bond-holders against losses.,32013R0575,segments/32013R0575_seg_120.txt,ff35ba6be549f8ba13079bf896da10a8c38d617118d62ee17b6332c54c2215cf,1063,1255,164,168,bond
+celex_012,securities,"(77)
+
+It is further necessary for competent authorities to have knowledge of the level, at least in aggregate terms, of repurchase agreements, securities lending and all forms of encumbrance of assets.",32013R0575,segments/32013R0575_seg_15.txt,7bbd33d9a81caeb020beda0cbfc06cdc2e538134b39a9f5dea315c080a425399,2320,2521,143,153,securities
+celex_013,monetary policy,Standby credit facilities granted by central banks within the scope of monetary policy to the extent that these facilities are not collateralised by liquid assets and excluding emergency liquidity assistance.,32013R0575,segments/32013R0575_seg_441.txt,45b9d1d035593a49c635689b555d2c7a976815c7fd779cc242dca9f87fb92a01,677,885,71,86,monetary policy
+celex_014,inflation,"The neutral gain on the deposit is positive and the real gain negative, the amount depending upon the length of time the deposit is outstanding and the rate of inflation.",32013R0549,segments/32013R0549_seg_199.txt,e58ceb7b30c1c727fcfac7c9e976c17f3aab4c4b9f281f380b63106fd58006fe,1186,1356,160,169,inflation
+celex_015,exchange rate,"5.213
+
+Currency swaps involve an exchange of cash flows related to interest payments and an exchange of principal amounts at an agreed exchange rate at the end of the contract.",32013R0549,segments/32013R0549_seg_183.txt,94e0fd50ff90baa442ede807f37288b9167acee0e2b75709cab8a79f618521cd,0,176,135,148,exchange rate
+celex_016,balance of payments,"BRANCHES AS A TERM USED IN THE INTERNATIONAL ACCOUNTS OF THE BALANCE OF PAYMENTS
+
+18.12
+
+A branch is an unincorporated enterprise that belongs to a non-resident unit, known as the parent.",32013R0549,segments/32013R0549_seg_397.txt,5884a4a5a2fc1cea1adb23ed17217fe2b4a14a8d0bba4596bfdcda7a046af922,286,473,61,80,BALANCE OF PAYMENTS
+celex_017,money market,"Their business is to issue investment fund shares or units as close substitutes for deposits from institutional units, and, for their own account, to make investments primarily in money market fund shares/units, short-term debt securities, and/or deposits.",32013R0549,segments/32013R0549_seg_56.txt,764323dc3c745ba59c1a069adfcb6022a626e3f73f1d36453ba5dcef60f446c4,1338,1594,180,192,money market
+celex_018,interest,"sales by domestic affiliates of a foreign multinational;
+
+(b)
+
+primary income flows to or from the rest of the world, such as compensation of employees, interest and revenues from direct investment.",32013R0549,segments/32013R0549_seg_100.txt,c93f200ac98d6aeaa3d882122ec57969f7b4b8c082ea0a2d6e0c794d7c52a29c,2074,2272,153,161,interest
+celex_019,accounting,Super-dividends of public corporations are to be recorded as withdrawal of equity (F.5) for the difference between the payments and the entrepreneurial income of the relevant accounting period (see paragraph 20.206).,32013R0549,segments/32013R0549_seg_125.txt,94094d8dc7eacb79f48ba84ef73bb52059e913e8fb9c6379a6e21741cd1c2696,2193,2409,175,185,accounting
+celex_020,national accounts,"Chapters 16 and 17 on insurance, social insurance and pensions describe how these arrangements are handled in the national accounts, as questions of redistribution become of increasing interest as populations age.",32013R0549,segments/32013R0549_seg_13.txt,e518f4b1185b61d28e6117fd405bcba1ecbd0bda23558fc39979e6e237a6a624,2765,2978,114,131,national accounts
+celex_021,public finance,"From the point of view of social protection statistics, they can be related to the official statistics on the national economy such as on economic growth and public finance.",32013R0549,segments/32013R0549_seg_510.txt,1d7cb76fbf60b1e35c5c0e9860f96b3cbd4139cec03980d3e740fbf0fd9b30b9,2101,2274,158,172,public finance
+celex_022,budget,"19.34
+
+The gross national income resource is a residual contribution to the budget of the European institutions which is assessed on the levels of gross national income of each Member State.",32013R0549,segments/32013R0549_seg_418.txt,e307d40543e372c7471291f3ff5ce02f54c9caf74912b27b810442c3861cd03a,1115,1305,76,82,budget
+celex_023,insurance,"In the supply and use and symmetric input-output tables, imports of goods for individual product groups are valued at the cost-insurance-freight (CIF) price at the border of the importing country.",32013R0549,segments/32013R0549_seg_102.txt,540579ad0909e460a07a28d44abe9cc7b645ed8c9633b4fab9fa820f071b228b,919,1115,127,136,insurance
+celex_024,debt,Such cancellations by mutual agreement are treated as a capital transfer from the creditor to the debtor equal to the value of the outstanding debt at the time of cancellation.,32013R0549,segments/32013R0549_seg_150.txt,1f07912385035edd1c7c4a65506ad867e6861d352ad2bba1edd02c6eee11f233,1105,1281,143,147,debt
+celex_025,investment,"sales by domestic affiliates of a foreign multinational;
+
+(b)
+
+primary income flows to or from the rest of the world, such as compensation of employees, interest and revenues from direct investment.",32013R0549,segments/32013R0549_seg_100.txt,c93f200ac98d6aeaa3d882122ec57969f7b4b8c082ea0a2d6e0c794d7c52a29c,2074,2272,187,197,investment
+celex_027,financial risk,"Special purpose entities
+
+2.17
+
+A special purpose entity (SPE) or special purpose vehicle (SPV) is usually a limited company or a limited partnership, created to fulfil narrow, specific or temporary objectives and to isolate a financial risk, a specific taxation or a regulatory risk.",32013R0549,segments/32013R0549_seg_45.txt,128399b490eeafe9078abf554dcac24952b75a88316534099c34758fbc10a2b6,1743,2027,227,241,financial risk
+celex_028,financial services,"Non-financial corporations (S.11)
+
+2.45
+
+Definition:
+ the non-financial corporations sector (S.11) consists of institutional units which are independent legal entities and market producers, and whose principal activity is the production of goods and non-financial services.",32013R0549,segments/32013R0549_seg_50.txt,0a4b36a3a4b7ae7eef277e0570e019d732402eadba742e6cd7155ac3fb28fb2c,2256,2529,254,272,financial services
+celex_029,financing,The Basel III framework is expected to significantly increase the own fund requirements associated with institutions' OTC derivatives and securities financing transactions and to create important incentives for institutions to use CCPs.,32013R0575,segments/32013R0575_seg_17.txt,de173014cb6e86f259184ff5ddda9e96b872f5b99994c5ec2a3ce7564a9a5a7a,0,236,149,158,financing
+celex_030,payment system,"Another link to existing European goals would be further research into establishing a European multimodal transport information, management and payment system.",32021B0417,segments/32021B0417_seg_804.txt,a2f5d5e22b4429cc3eba1ea5ee45ad5ae72c488c263ee35c20f31aba11cbd3f7,3322,3481,144,158,payment system

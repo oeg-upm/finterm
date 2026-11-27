@@ -1,0 +1,25 @@
+caso,termino,celex,qid_referencia,posicion_sintetico,posicion_celex,top1_celex,candidatos_puntuados,delta_posicion
+eurovoc_001,European Central Bank,32013R0575,Q8901,1,1,Q8901,9,0
+eurovoc_002,central bank,32013R0549,Q66344,29,72,Q620942,97,-43
+eurovoc_005,credit institution,32013R0575,Q730038,1,6,Q30324184,43,-5
+eurovoc_007,financial market,32013R0575,Q208697,5,7,Q21040897,97,-2
+eurovoc_008,stock exchange,32013R0549,Q11691,12,9,Q106289680,72,3
+eurovoc_010,financial instrument,32013R0549,Q247506,4,2,Q4928186,23,2
+eurovoc_011,bond,32013R0549,Q11693,1,1,Q11693,116,0
+eurovoc_012,securities,32013R0575,Q169489,16,8,Q994506,184,8
+eurovoc_013,monetary policy,32013R0549,Q178476,7,10,Q6899020,78,-3
+eurovoc_014,inflation,32013R0549,Q35865,2,10,Q3321034,75,-8
+eurovoc_015,exchange rate,32013R0549,Q66100,2,1,Q66100,76,1
+eurovoc_016,balance of payments,32013R0549,Q140845,1,1,Q140845,37,0
+eurovoc_017,money market,32021B0417,Q627543,2,2,Q178030,9,0
+eurovoc_018,interest,32013R0549,Q170924,2,11,Q205258,87,-9
+eurovoc_019,accounting,32013R0575,Q4116214,3,4,Q1779838,88,-1
+eurovoc_020,national accounts,32013R0549,Q350151,1,1,Q350151,13,0
+eurovoc_021,public finance,32013R0549,Q274490,4,1,Q274490,80,3
+eurovoc_022,budget,32013R0549,Q41263,5,7,Q1404669,102,-2
+eurovoc_023,insurance,32013R0575,Q43183,11,23,Q1037642,90,-12
+eurovoc_024,debt,32013R0549,Q3196867,13,18,Q651936,91,-5
+eurovoc_025,investment,32013R0549,Q4290,1,4,Q4201895,90,-3
+eurovoc_027,financial risk,32013R0549,Q1337875,3,4,Q2906013,90,-1
+eurovoc_028,financial services,32013R0549,Q837171,1,1,Q837171,109,0
+eurovoc_029,financing,32013R0549,Q6055890,8,4,Q5449759,76,4

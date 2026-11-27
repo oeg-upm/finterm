@@ -1,0 +1,149 @@
+caso,termino,qid_eurovoc,posicion,qid_candidato,etiqueta,descripcion,aliases,similitud,es_referencia_eurovoc,traducciones_pendientes
+eurovoc_001,European Central Bank,Q8901,1,Q8901,European Central Bank,central bank of the European Union and the eurozone,[],0.6238619089126587,True,0
+eurovoc_001,European Central Bank,Q8901,2,Q136138826,,book 2021,[],0.3113205134868622,False,0
+eurovoc_001,European Central Bank,Q8901,3,Q58169479,European Central Bank׳s monetary policy decisions: A dataset of two decades of press conferences,article,[],0.29355937242507935,False,4
+eurovoc_001,European Central Bank,Q8901,4,Q105896122,The European Central Bank: Reshaping Monetary Politics in Europe,scientific article published in October 1991,[],0.2727360725402832,False,0
+eurovoc_001,European Central Bank,Q8901,5,Q114954168,"European Central Bank Monetary Policy Operations During the Crisis A: Open Market Operations, Collateral Expansion and Standing Facilities",scientific article published in 2015,[],0.24636423587799072,False,0
+eurovoc_002,central bank,Q66344,1,Q4504281,Central Bank of Trinidad and Tobago,Central bank,[],0.6581588387489319,False,0
+eurovoc_002,central bank,Q66344,2,Q58234,Central Bank of Libya,central bank,"[""CBL""]",0.6565801501274109,False,0
+eurovoc_002,central bank,Q66344,3,Q74690,Central Bank of Malta,central bank,[],0.6565801501274109,False,0
+eurovoc_002,central bank,Q66344,4,Q74693,Central Bank of Cyprus,central bank,[],0.6565801501274109,False,0
+eurovoc_002,central bank,Q66344,5,Q190223,Central Bank of Armenia,central bank,[],0.6565801501274109,False,0
+eurovoc_003,commercial bank,Q848507,1,Q495172,Commercial Bank of Ethiopia,commercial bank,"[""CBE""]",0.5690332055091858,False,0
+eurovoc_003,commercial bank,Q848507,2,Q10945949,Ningbo Donghai Bank,commercial bank,"[""Ningbo"",""Commercial Bank""]",0.5690330862998962,False,0
+eurovoc_003,commercial bank,Q848507,3,Q848507,commercial bank,financial institution that accepts deposits from the public and provides loans to its clients in order to make a profit,[],0.5615029335021973,True,0
+eurovoc_003,commercial bank,Q848507,4,Q5152470,Commercial Bank of Malawi,commercial bank in Malawi,[],0.5474894642829895,False,0
+eurovoc_003,commercial bank,Q848507,5,Q5152468,Commercial Bank of Ceylon,Sri Lankan commercial bank,"[""CBC"",""ComBank""]",0.5301758050918579,False,0
+eurovoc_004,banking supervision,Q751309,1,Q751309,banking supervision,monitoring credit institutions as part of state supervision of the financial market,[],0.6222612261772156,True,0
+eurovoc_004,banking supervision,Q751309,2,Q23045273,Banking Supervision Finland,former government agency in Finland,[],0.46776944398880005,False,0
+eurovoc_004,banking supervision,Q751309,3,Q126411859,Banking supervision and external auditors: Theory and empirics,scholarly article,[],0.26874810457229614,False,0
+eurovoc_005,credit institution,Q730038,1,Q730038,credit institution,enterprise whose primary activity is banking and credit provision,[],0.4774366021156311,True,0
+eurovoc_005,credit institution,Q730038,2,Q100554690,Credit Institutions Resolution Fund Levy (Amendment) Regulations 2020,Irish Statutory Instrument S.I. No. 406/2020,[],0.32479923963546753,False,0
+eurovoc_005,credit institution,Q730038,3,Q100399989,"Credit Institutions (Stabilisation) Act, 2010",Act of the Oireachtas No. 36 of 2010,"[""Credit Institutions (Stabilisation) Act 2010""]",0.31630179286003113,False,0
+eurovoc_005,credit institution,Q730038,4,Q100548818,Credit Institutions (Financial Support) (Financial Support Period) Order 2011,Irish Statutory Instrument S.I. No. 257/2011,[],0.3102881908416748,False,0
+eurovoc_005,credit institution,Q730038,5,Q100548814,Credit Institutions (Financial Support) (Financial Support Date) Order 2011,Irish Statutory Instrument S.I. No. 256/2011,[],0.30828702449798584,False,0
+eurovoc_006,bank deposit,Q10948641,1,Q107178918,Bank Deposit Insurance Agency,registration authority,[],0.38925960659980774,False,0
+eurovoc_006,bank deposit,Q10948641,2,Q107196369,bank deposit receipt,kind of receipt,[],0.37921226024627686,False,0
+eurovoc_006,bank deposit,Q10948641,3,Q127497217,Bank Deposits and the Stock Market,scholarly article,[],0.30213940143585205,False,0
+eurovoc_006,bank deposit,Q10948641,4,Q128065270,Bank deposit activity in Ukraine: Directions and factors of development activation,scholarly article,[],0.30213940143585205,False,0
+eurovoc_006,bank deposit,Q10948641,5,Q128199355,BANK DEPOSIT AS A DIRECTION OF INVESTMENT ACTIVITY’S ACTIVATION OF INSURERS IN LIFE INSURANCE,scholarly article,[],0.30213940143585205,False,0
+eurovoc_007,financial market,Q208697,1,Q5449728,financial market efficiency,measure of efficiency of a financial market,"[""market efficiency""]",0.6031098365783691,False,0
+eurovoc_007,financial market,Q208697,2,Q87731624,financial market impact of the 2019–20 coronavirus pandemic,economic turmoil associated with the pandemic,[],0.5928499698638916,False,0
+eurovoc_007,financial market,Q208697,3,Q21040897,Financial Market Infrastructure Act,Swiss legislation for the regulation of financial markets,"[""FinfraG"",""FMIA""]",0.553925096988678,False,0
+eurovoc_007,financial market,Q208697,4,Q56312877,financial market infrastructure,critical component of the financial system,[],0.5429002642631531,False,0
+eurovoc_007,financial market,Q208697,5,Q208697,financial market,any market in which trading takes place with capital,[],0.5256705284118652,True,0
+eurovoc_008,stock exchange,Q11691,1,Q106289680,stock exchange cooperative,cooperative business entity whose shares are publicly traded on stock exchanges,"[""stock exchange co-operative""]",0.5755183100700378,False,0
+eurovoc_008,stock exchange,Q11691,2,Q496672,Hong Kong Stock Exchange,"stock exchange based in Hong Kong, operating under Hong Kong’s distinct regulatory framework, which allows greater access to foreign investors","[""SEHK"",""HKSE"",""Stock Exchange of Hong Kong"",""The Stock Exchange of Hong Kong Limited"",""XHKG"",""HKEX""]",0.5626730918884277,False,0
+eurovoc_008,stock exchange,Q11691,3,Q2415947,SEAQ,system for trading small-cap London Stock Exchange stocks,"[""Stock Exchange Automated Quotation""]",0.5488834381103516,False,0
+eurovoc_008,stock exchange,Q11691,4,Q114586941,Stock Exchange Saint Petersburg,stock exchange in Russia,"[""JOIN-STOCK COMPANY EXCHANGE SAINT-PETERSBURG"",""XPET"",""SPBEX""]",0.5479358434677124,False,0
+eurovoc_008,stock exchange,Q11691,5,Q4351979,Stock Exchange of Singapore,national Stock Exchange of Singapore,[],0.52779620885849,False,0
+eurovoc_009,capital market,Q750458,1,Q750458,capital market,financial market for medium and long-term capital raising,[],0.6419669985771179,True,0
+eurovoc_009,capital market,Q750458,2,Q1019994,Capital market regulation,The legal and organizational frameworks governing the functioning of capital markets,[],0.4871046245098114,False,0
+eurovoc_009,capital market,Q750458,3,Q1728579,Capital market line,the result when the market portfolio is combined with the risk-free asset,[],0.387058287858963,False,0
+eurovoc_009,capital market,Q750458,4,Q5035615,Capital Market Authority,Saudi Arabian financial regulatory authority,[],0.3549891710281372,False,0
+eurovoc_009,capital market,Q750458,5,Q106979769,Capital Markets in PPP Financing,European Investment Bank publication,[],0.34879279136657715,False,0
+eurovoc_010,financial instrument,Q247506,1,Q4928186,Financial Instrument Global Identifier,an open financial instruments standard,"[""Bloomberg Global Identifier"",""BBGID"",""FIGI""]",0.4899020493030548,False,0
+eurovoc_010,financial instrument,Q247506,2,Q18537588,Romanian Financial Supervisory Authority,Romanian financial regulatory agency,"[""Financial Instruments and Investments Registry""]",0.438552588224411,False,0
+eurovoc_010,financial instrument,Q247506,3,Q141734577,Financial instrument of the European Union,"European Union budget financing mechanism using loans, guarantees, equity investments or risk sharing","[""EU financial instruments"",""Financial instruments of the European Union""]",0.39380767941474915,False,0
+eurovoc_010,financial instrument,Q247506,4,Q247506,financial instrument,monetary contract between parties,"[""financial contract"",""financial contracts""]",0.3932117521762848,True,0
+eurovoc_010,financial instrument,Q247506,5,Q9256325,"European Maritime, Fisheries and Aquaculture Fund",European Structural and Investment Fund,"[""EMFAF"",""European Maritime and Fisheries Fund"",""EMFF"",""European Fisheries Fund"",""EFF"",""Financial Instrument for Fisheries Guidance""]",0.34358683228492737,False,0
+eurovoc_011,bond,Q11693,1,Q11693,bond,instrument of indebtedness,[],0.5773975849151611,True,0
+eurovoc_011,bond,Q11693,2,Q107387564,bond,legal document pledging liability for financial or personal loss caused to another party,[],0.4388408958911896,False,0
+eurovoc_011,bond,Q11693,3,Q113015882,bond,an agreement with the Devil,"[""band""]",0.4214358329772949,False,0
+eurovoc_011,bond,Q11693,4,Q188666,adhesion,interaction in which dissimilar surfaces or particles stick together,"[""sticking"",""adhering"",""adhere"",""bonding"",""bond""]",0.4170626401901245,False,0
+eurovoc_011,bond,Q11693,5,Q48262,Bondelum,municipality of Germany,[],0.4086516499519348,False,0
+eurovoc_012,securities,Q169489,1,Q1424605,,"businessperson who exchanges stocks, bonds and other such financial instruments","[""Trader"",""financial trader"",""securities trader""]",0.5139153599739075,False,0
+eurovoc_012,securities,Q169489,2,Q59708406,securities trading,buying or selling securities or commodities,"[""trading""]",0.5093643069267273,False,0
+eurovoc_012,securities,Q169489,3,Q2563572,securities account,an account that is used to handle securities transactions and securities holdings,"[""custodial account"",""brokerage account""]",0.4797686040401459,False,0
+eurovoc_012,securities,Q169489,4,Q856887,security guard,person employed to protect assets,"[""watchman"",""security agent"",""security officer"",""security guards"",""guard""]",0.4677872955799103,False,0
+eurovoc_012,securities,Q169489,5,Q994506,Securities Act of 1933,Legislation regulating the offer and sale of securities.,"[""Truth in Securities Act"",""Federal Securities Act"",""1933 Act"",""1933 Securities Act"",""Securities Act""]",0.46216994524002075,False,0
+eurovoc_013,monetary policy,Q178476,1,Q6899020,Monetary policy reaction function,Functions of monetary policy,[],0.5897830724716187,False,0
+eurovoc_013,monetary policy,Q178476,2,Q1499522,monetary policy of the European Central Bank,monetary policy,[],0.5888257026672363,False,0
+eurovoc_013,monetary policy,Q178476,3,Q6899019,monetary policy of the United States,set of policies which the United States Federal Reserve follows,"[""United States monetary policy"",""monetary policy of the U.S."",""monetary policy of the US"",""U.S. monetary policy"",""US monetary policy""]",0.5568395256996155,False,0
+eurovoc_013,monetary policy,Q178476,4,Q16909702,monetary policy of China,policy of the Chinese Yuan,[],0.5475608110427856,False,0
+eurovoc_013,monetary policy,Q178476,5,Q846262,Monetary Policy Committee,committee of the Bank of England that decides the United Kingdom's official interest rate,"[""MPC""]",0.5381161570549011,False,0
+eurovoc_014,inflation,Q35865,1,Q60219,inflationary bias,monetary policy that leads to a higher than optimal level of inflation,[],0.647672176361084,False,0
+eurovoc_014,inflation,Q35865,2,Q35865,inflation,rise in price level in an economy over time,"[""price rise"",""monetary erosion"",""purchase power loss"",""higher prices"",""economic inflation""]",0.6219013929367065,True,0
+eurovoc_014,inflation,Q35865,3,Q386471,inflation tax,inflation regarded as a form of universal taxation,[],0.6131459474563599,False,0
+eurovoc_014,inflation,Q35865,4,Q5700693,inflation in Iran,an overview of the rate and causes of inflation in Iran,[],0.6031284928321838,False,0
+eurovoc_014,inflation,Q35865,5,Q1193759,inflation targeting,monetary policy where a central bank announces an explicit target for the inflation rate,[],0.6002405881881714,False,0
+eurovoc_015,exchange rate,Q66100,1,Q1363350,exchange rate policy,measures which influence currency (especially in exchange rates),"[""exchange policy""]",0.6510502099990845,False,0
+eurovoc_015,exchange rate,Q66100,2,Q66100,exchange rate,rate at which one currency will be exchanged for another,"[""foreign-exchange rate"",""forex rate"",""FX rate"",""foreign currency transactions""]",0.6264962553977966,True,0
+eurovoc_015,exchange rate,Q66100,3,Q465658,exchange-rate regime,monetary policy relating to currency exchange rates,"[""exchange rate regime""]",0.6148715615272522,False,0
+eurovoc_015,exchange rate,Q66100,4,Q134524394,Exchange-Rates.org,Exchange rates website,[],0.6006821990013123,False,0
+eurovoc_015,exchange rate,Q66100,5,Q7113966,overshooting model,theoretical explanation for exchange rate volatility,"[""exchange rate overshooting hypothesis""]",0.5943347811698914,False,0
+eurovoc_016,balance of payments,Q140845,1,Q140845,balance of payments,concept in international economics,[],0.44846639037132263,True,0
+eurovoc_016,balance of payments,Q140845,2,Q1417912,currency crisis,"situation in which grave doubt exists as to whether a central bank has enough forex reserves to maintain an exchange rate, often with a speculative attack in forex markets","[""balance of payments crisis""]",0.42374861240386963,False,0
+eurovoc_016,balance of payments,Q140845,3,Q58341438,Balance-of-payment-constrained growth in unbalanced productive structures: disregarded terms of trade negative effects,article by Florencia Médici & Demian Tupac Panigo published 20 October 2015 in Journal of Post Keynesian Economics,[],0.36950597167015076,False,0
+eurovoc_016,balance of payments,Q140845,4,Q58278259,Balance of payments constrained growth: A reply to McGregor and Swales,article by A. P. Thirlwall published December 1986 in Applied Economics,[],0.36725226044654846,False,0
+eurovoc_016,balance of payments,Q140845,5,Q58342391,Balance-of-Payments-Constrained Growth in Central America: 1950–96,article by Juan Carlos Moreno-Brid & Esteban Pérez published September 1999 in Journal of Post Keynesian Economics,[],0.35420531034469604,False,0
+eurovoc_017,money market,Q627543,1,Q178030,money market account,deposit account that pays interest based on current interest rates in the money markets,"[""MMA"",""money market deposit account"",""MMDA""]",0.5713279843330383,False,0
+eurovoc_017,money market,Q627543,2,Q627543,money market,type of financial market,[],0.5021679997444153,True,0
+eurovoc_017,money market,Q627543,3,Q1199349,money market fund,type of investment fund,"[""money fund"",""money funds"",""money market funds""]",0.3900829255580902,False,0
+eurovoc_017,money market,Q627543,4,Q120929566,Money Market Bottleneck in Great Western China Development  and Financial Policy Suggestions,"scholarly article in Journal of Management Science, no. 6, 2000",[],0.2748262882232666,False,0
+eurovoc_017,money market,Q627543,5,Q77640918,Money market offers options for short-term investments,scientific article published on 01 October 1989,[],0.25316503643989563,False,0
+eurovoc_018,interest,Q170924,1,Q205250,interest day,day on which the interest is payable,"[""Zinstag""]",0.6918617486953735,False,0
+eurovoc_018,interest,Q170924,2,Q170924,interest,fee paid by a debtor to a creditor for borrowed capital,[],0.6595574021339417,True,0
+eurovoc_018,interest,Q170924,3,Q3352558,penal interest,punitive interest given to borrowers,"[""interest on arrears""]",0.6482878923416138,False,0
+eurovoc_018,interest,Q170924,4,Q179179,interest rate,percentage of a sum of money charged for its use,"[""key interest rate""]",0.6226871609687805,False,0
+eurovoc_018,interest,Q170924,5,Q205179,times interest earned,ratio measuring a firm's ability to meet its interest payments,"[""interest coverage ratio""]",0.578705906867981,False,0
+eurovoc_019,accounting,Q4116214,1,Q106905561,financial statement metric,Any line item that appears on a company's periodic financial reports,"[""Financial Metric"",""Accounting Metric""]",0.5408571362495422,False,0
+eurovoc_019,accounting,Q4116214,2,Q860360,accounting law,"regulates the whole of the legislation, the preparation and content of financial statements, in particular the accounting and the preparation of the balance sheet",[],0.5327649712562561,False,0
+eurovoc_019,accounting,Q4116214,3,Q4116214,accounting,"measurement, processing and communication of financial information about economic entities","[""accountancy""]",0.5110704302787781,True,0
+eurovoc_019,accounting,Q4116214,4,Q860364,Accounting Law (Germany),"regulation of the totality of the laws in Germany, the preparation and content of financial statements, in particular the accounting and the preparation of the balance sheet",[],0.5096994042396545,False,0
+eurovoc_019,accounting,Q4116214,5,Q4672783,accounting analyst,accounting analyst evaluates and interprets public company financial statements,[],0.5057976245880127,False,0
+eurovoc_020,national accounts,Q350151,1,Q350151,national accounts,accounting for nations,"[""System of National Accounts"",""SNA""]",0.5561229586601257,True,0
+eurovoc_020,national accounts,Q350151,2,Q6970148,National Accountability Bureau,Pakistani anti-corruption agency,[],0.3525804877281189,False,0
+eurovoc_020,national accounts,Q350151,3,Q118227798,National Accounts in View of Macroeconomic Supply Side,article published in 2020,[],0.28101861476898193,False,0
+eurovoc_020,national accounts,Q350151,4,Q113871732,National accounting systems as a foundation for embedded emissions accounting in trade-related climate policies,scientific article published in 2022,[],0.27511754631996155,False,0
+eurovoc_020,national accounts,Q350151,5,Q115449478,National accounts in the anthropocene: Hueting's environmental functions and environmentally sustainable national income: Translation and relevance for ecosystem services,scientific article published in 2020,[],0.26313409209251404,False,0
+eurovoc_021,public finance,Q274490,1,Q139959950,public finance semantics,"Semantic structures, classifications, or data relationships used to model public finance systems, funding processes, budgets, or fiscal governance.",[],0.5248594284057617,False,0
+eurovoc_021,public finance,Q274490,2,Q117487783,"Public Finance Management Act, 1999",primary public finance management law in South Africa,[],0.5210882425308228,False,0
+eurovoc_021,public finance,Q274490,3,Q26877728,public finance,general term for all income and expenditure of the public sector,[],0.49268561601638794,False,0
+eurovoc_021,public finance,Q274490,4,Q274490,public finance,public finance in economics,"[""government finance""]",0.4411003887653351,True,0
+eurovoc_021,public finance,Q274490,5,Q133176899,public finance and public policy: Responsibilities and Limitations of Government,Taxation book,[],0.36512699723243713,False,0
+eurovoc_022,budget,Q41263,1,Q271855,government budget,government document presenting the government's proposed revenues and spending for a fiscal year,"[""budget"",""the budget"",""national budget"",""general appropriations"",""general appropriations act"",""appropriations act"",""yearly national budget"",""state budget""]",0.6808133125305176,False,0
+eurovoc_022,budget,Q41263,2,Q1404669,budgetary policy,measures which deal with revenue and expenditure of public budgets,"[""government spending policy"",""public spending policy"",""budget policy""]",0.6716017127037048,False,0
+eurovoc_022,budget,Q41263,3,Q27998498,budget,government document explaining public spending,[],0.6139877438545227,False,0
+eurovoc_022,budget,Q41263,4,Q105737223,budget appropriation,"money provided for in a public budget, which must be spent on a specific purpose",[],0.6128807067871094,False,0
+eurovoc_022,budget,Q41263,5,Q41263,budget,balance sheet or statement of estimated receipts and expenditures,"[""budgets""]",0.5830448865890503,True,0
+eurovoc_023,insurance,Q43183,1,Q2143354,insurance company,business enterprise which provides a means of protection from financial loss,"[""insurer""]",0.6483966708183289,False,0
+eurovoc_023,insurance,Q43183,2,Q58037855,insurance coverage,amount of protection available and the kind of loss which would be paid for under an insurance contract,"[""uninsured risks"",""Insurance Coverage""]",0.608109176158905,False,0
+eurovoc_023,insurance,Q43183,3,Q106564453,Insurance Navy Brokers,Insurance Company,"[""Insurance Navy Brokers Inc."",""Insurance Navy""]",0.5813102722167969,False,0
+eurovoc_023,insurance,Q43183,4,Q27038992,insurance agency,business that offers insurance policies,[],0.579064130783081,False,0
+eurovoc_023,insurance,Q43183,5,Q70452809,insurance carriers,organizations which assume the financial responsibility for the risks of policyholders,"[""insurance carrier""]",0.5735023617744446,False,0
+eurovoc_024,debt,Q3196867,1,Q10670698,debt clock,public counter of government debt,[],0.5628970861434937,False,0
+eurovoc_024,debt,Q3196867,2,Q1364290,debt restructuring,"process of renegotiation regarding an organization's, or sovereign entity's delinquent debts","[""debt equity swap"",""workout"",""restructuring a debt"",""restructuring of debt"",""debt renegotiation"",""renegotiating a debt"",""restructuring"",""debt rescheduling""]",0.5485937595367432,False,0
+eurovoc_024,debt,Q3196867,3,Q651936,debt relief,"partial or total ""lifting-back"" or forgiveness of debt","[""debt forgiveness"",""debt cancellation""]",0.5191858410835266,False,0
+eurovoc_024,debt,Q3196867,4,Q18391705,debt limit,legislative mechanism restricting the total amount that a country can borrow,"[""debt ceiling""]",0.5006545782089233,False,0
+eurovoc_024,debt,Q3196867,5,Q17125574,debt moratorium,"delay in the payment of debts, usually by government","[""debt repudiation""]",0.49748167395591736,False,0
+eurovoc_025,investment,Q4290,1,Q4290,investment,commitment of resources to achieve later benefits,"[""economic investment"",""invest"",""investing"",""investments""]",0.5184848308563232,True,0
+eurovoc_025,investment,Q4290,2,Q3489761,securities offering,discrete round of investment,"[""funding round"",""securities offerings"",""funding rounds"",""investment round"",""investment rounds""]",0.5120296478271484,False,0
+eurovoc_025,investment,Q4290,3,Q1354666,capital budgeting,Planning process used to assess an organization's long term investments,"[""investment appraisal""]",0.5069291591644287,False,0
+eurovoc_025,investment,Q4290,4,Q16969721,investment trust,form of closed-end investment fund in some countries,[],0.5057363510131836,False,0
+eurovoc_025,investment,Q4290,5,Q4201895,investment fund,any financial vehicle that lets multiple investors to pool their resources for investment,"[""pooled investment vehicle"",""managed investment fund"",""managed investment scheme"",""investment scheme"",""collective investment scheme"",""collective investment vehicle"",""managed fund"",""fund"",""pooled investment scheme""]",0.4898892343044281,False,0
+eurovoc_026,consumer credit,Q2042903,1,Q5164692,consumer credit risk,the risk of loss due to a consumer's failure or inability to repay on a consumer credit product,"[""retail credit risk""]",0.6314404606819153,False,0
+eurovoc_026,consumer credit,Q2042903,2,Q2042903,consumer credit,credit used for the purchase of goods with a limited shelf life,[],0.6210223436355591,True,0
+eurovoc_026,consumer credit,Q2042903,3,Q1187145,credit bureau,financial agency that gathers account information to predict a consumer's creditworthiness,"[""consumer reporting agency"",""credit reference agency"",""credit reporting body"",""credit information company"",""Special Accessing Entity"",""consumer credit bureau"",""credit bureaus"",""credit reporting agency""]",0.6191672086715698,False,0
+eurovoc_026,consumer credit,Q2042903,4,Q5164633,Consumer Action Legal Centre,Australian consumer advocacy organisation,"[""Consumer Credit Legal Service"",""Consumer Action"",""CALC""]",0.49769121408462524,False,0
+eurovoc_026,consumer credit,Q2042903,5,Q5164651,Consumer Credit Act 1974,Public General Act of Parliament of the United Kingdom,"[""1974 c. 39"",""1974 c39""]",0.4457055926322937,False,0
+eurovoc_027,financial risk,Q1337875,1,Q2906013,financial risk management,"practice of using financial instruments to manage exposure to risk, including operational risk, credit risk and market risk, foreign exchange risk, etc.",[],0.6302695870399475,False,0
+eurovoc_027,financial risk,Q1337875,2,Q5449740,financial risk modeling,the use of mathematical representations or formal econometric techniques to determine the aggregate risk in a financial portfolio,[],0.5724507570266724,False,0
+eurovoc_027,financial risk,Q1337875,3,Q1337875,financial risk,"any of various types of risk associated with financial transactions, financing or investment","[""economic risk""]",0.5546234250068665,True,0
+eurovoc_027,financial risk,Q1337875,4,Q137726807,Financial Risk as an Ethnographic Object,"scholarly article titled \""Financial Risk as an Ethnographic Object\"" by Adam Brown published in Anthropology News, vol. 47 no. 9, pp. 18-19 (2006)",[],0.5126152038574219,False,0
+eurovoc_027,financial risk,Q1337875,5,Q70488841,health financial risk sharing,system which allows payors to share some of the financial risk associated with a particular patient population with providers,"[""Risk Sharing, Financial"",""financial risk sharing""]",0.4665604531764984,False,0
+eurovoc_028,financial services,Q837171,1,Q837171,financial services,economic service provided by the finance industry,"[""finance industry"",""FS industry"",""FinServ"",""financial activities"",""financial service"",""finance industries"",""financial activity""]",0.7185158133506775,True,0
+eurovoc_028,financial services,Q837171,2,Q55611650,financial services in the United States,overview of financial services in the United States,[],0.6693681478500366,False,0
+eurovoc_028,financial services,Q837171,3,Q57774188,financial sector,all companies working in financial services,"[""financial industry"",""financial institutions"",""financial services sector"",""financial services industry"",""finance industry""]",0.6612734794616699,False,0
+eurovoc_028,financial services,Q837171,4,Q16980748,financial services industry of the United Kingdom,overview about the financial service industry in the United Kingdom,"[""financial services in the United Kingdom""]",0.6519336104393005,False,0
+eurovoc_028,financial services,Q837171,5,Q5449748,Financial services in the People's Republic of China,overview of financial services in China,[],0.6487276554107666,False,0
+eurovoc_029,financing,Q6055890,1,Q70436348,construction financing,funding resources and procedures for capital improvement or construction of facilities,"[""Financing, Construction"",""construction finance""]",0.5238851308822632,False,0
+eurovoc_029,financing,Q6055890,2,Q70489937,organized financing,the full range of organized methods of funding,"[""Financing, Organized""]",0.4838981330394745,False,0
+eurovoc_029,financing,Q6055890,3,Q5449759,financing cost,cost of money provided for a particular purpose,[],0.48024439811706543,False,0
+eurovoc_029,financing,Q6055890,4,Q140044479,financing for liberal legal and accounting professionals,financial service specialised in financing liberal legal and accounting professionals in France,"[""legal and accounting professional financing"",""notary and accountant financing""]",0.45244845747947693,False,0
+eurovoc_029,financing,Q6055890,5,Q140044461,financing for liberal healthcare professionals,financial service specialised in financing liberal healthcare professionals in France,"[""medical professional financing"",""healthcare professional financing""]",0.4490996301174164,False,0
+eurovoc_030,payment system,Q986008,1,Q986008,payment system,"system used to transfer monetary value, including institutions, instruments, people, rules, procedures, standards, and technologies","[""payments system"",""form of payment""]",0.6687943339347839,True,0
+eurovoc_030,payment system,Q986008,2,Q20826110,payment system,type of system,[],0.3949635624885559,False,0
+eurovoc_030,payment system,Q986008,3,Q124914599,Payment system for authorizing a transaction between a user device and a terminal,US patent 11416855,[],0.31972068548202515,False,0
+eurovoc_030,payment system,Q986008,4,Q118124305,Payment system and method,US patent 11257082,[],0.29935044050216675,False,0
+eurovoc_030,payment system,Q986008,5,Q56820649,Payment Systems (Regulation) Act 1998,Act of the Parliament of Australia,[],0.29769623279571533,False,0

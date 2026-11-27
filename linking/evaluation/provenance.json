@@ -1,0 +1,129 @@
+{
+  "description": "Archived source-file mapping. Original SHA-256 values refer to pre-anonymisation bytes, not necessarily the distributed copies. No inference outputs or annotation decisions were changed.",
+  "files": [
+    {
+      "source_archive_member": "07_evaluacion_ranking_baseline_v1/metricas_provisionales.json",
+      "published_member": "archive/baseline/metricas_provisionales.json",
+      "source_sha256": "3fdf81523a0410cdac6a49c49d7852f4892724e0c2eb40b6598de67d428a97a1",
+      "published_sha256": "3fdf81523a0410cdac6a49c49d7852f4892724e0c2eb40b6598de67d428a97a1",
+      "changes": []
+    },
+    {
+      "source_archive_member": "07_evaluacion_ranking_baseline_v1/resultados_30_rankings.csv",
+      "published_member": "archive/baseline/resultados_30_rankings.csv",
+      "source_sha256": "1e61f3433be89ed35e65994b817a44d0273edabc9e29c0e451c081752e92c078",
+      "published_sha256": "1e61f3433be89ed35e65994b817a44d0273edabc9e29c0e451c081752e92c078",
+      "changes": []
+    },
+    {
+      "source_archive_member": "08_revision_semantica_30/revision_30_referencia_vs_top1.csv",
+      "published_member": "archive/semantic_review/revision_30_referencia_vs_top1.csv",
+      "source_sha256": "dad82927cc0f4bfd41f4f49404397cb344eef2e6494f464e05b1ec2c8a7a7746",
+      "published_sha256": "dad82927cc0f4bfd41f4f49404397cb344eef2e6494f464e05b1ec2c8a7a7746",
+      "changes": []
+    },
+    {
+      "source_archive_member": "08_revision_semantica_30/top5_con_descripciones.csv",
+      "published_member": "archive/semantic_review/top5_con_descripciones.csv",
+      "source_sha256": "6ed520c5556d0b7420b725c268fa837503c663179c93a2c51d7e2a907c49b553",
+      "published_sha256": "6ed520c5556d0b7420b725c268fa837503c663179c93a2c51d7e2a907c49b553",
+      "changes": []
+    },
+    {
+      "source_archive_member": "09_contextos_celex_reales_v1/contextos_CELEX_24_preseleccionados_provisionales.csv",
+      "published_member": "archive/contexts/final_celex24.csv",
+      "source_sha256": "e6054c996515ba07a934af1a887d6f1f3c665fe605f3bc48832e821a2e8be0a9",
+      "published_sha256": "f9755df9a7c94bd09d98db11b69b3c4e693ebbc5a84d934e1de2ce49335d6942",
+      "changes": [
+        "Source path replaced by member path inside corpus archive."
+      ]
+    },
+    {
+      "source_archive_member": "09_contextos_celex_reales_v1/contextos_celex_candidatos.csv",
+      "published_member": "archive/contexts/preselection/contextos_celex_candidatos.csv",
+      "source_sha256": "b917c0e18424ba3caac168fb9b20b078c6502e7f538dca575c3feb6e8cf29d37",
+      "published_sha256": "6b3526c4656f225645434863ca99893226cddb8e29f880c408f5b54bb37ddbbf",
+      "changes": [
+        "Source path replaced by member path inside corpus archive."
+      ]
+    },
+    {
+      "source_archive_member": "09_contextos_celex_reales_v1/contextos_celex_preseleccion.csv",
+      "published_member": "archive/contexts/preselection/contextos_celex_preseleccion.csv",
+      "source_sha256": "7a536dd0e9e0cc87e5f6a97178d42b81a236ba05f2683183b790622200a4828d",
+      "published_sha256": "a2e1cb8e4f5d64e2d1b68c9e2412927ce48c73f5adcb5dd781a6fb948a57f461",
+      "changes": [
+        "Source path replaced by member path inside corpus archive."
+      ]
+    },
+    {
+      "source_archive_member": "09_contextos_celex_reales_v1/entradas_celex_sin_qid.jsonl",
+      "published_member": "archive/contexts/preselection/entradas_celex_sin_qid.jsonl",
+      "source_sha256": "eabdf267ccb0d2bdf2e6187eafd2d675298a4b55bfa3d4e5ff8d3476b1ec1502",
+      "published_sha256": "eabdf267ccb0d2bdf2e6187eafd2d675298a4b55bfa3d4e5ff8d3476b1ec1502",
+      "changes": []
+    },
+    {
+      "source_archive_member": "10_comparacion_celex24_v1/comparacion_pareada_celex24.csv",
+      "published_member": "archive/paired/comparacion_pareada_celex24.csv",
+      "source_sha256": "4381f9770fd530e6dc3cb9eeab404948012e18312a1651cbd3d3ce7903a1148d",
+      "published_sha256": "4381f9770fd530e6dc3cb9eeab404948012e18312a1651cbd3d3ce7903a1148d",
+      "changes": []
+    },
+    {
+      "source_archive_member": "10_comparacion_celex24_v1/manifiesto_comparacion.json",
+      "published_member": "archive/paired/manifiesto_comparacion.json",
+      "source_sha256": "c0cbf87f5e4e48fc8b5ac273fcbbe79e3618e5ca8a421c48f9238fa7d5bdfc82",
+      "published_sha256": "9a3e08549478c374fff07b96bc32fb3cc78772e460c8f178e742f326fa85a745",
+      "changes": [
+        "Private paths removed. Original experiment hashes retained as historical identifiers."
+      ]
+    },
+    {
+      "source_archive_member": "10_comparacion_celex24_v1/ranking_completo_celex24.csv",
+      "published_member": "archive/paired/ranking_completo_celex24.csv",
+      "source_sha256": "661a89c9d5c3cfece1f7650abff9d3dee63440f8d99e8490f0ac7ec4f4f8871e",
+      "published_sha256": "661a89c9d5c3cfece1f7650abff9d3dee63440f8d99e8490f0ac7ec4f4f8871e",
+      "changes": []
+    },
+    {
+      "source_archive_member": "comparacion_eurovoc_30_v1/comparacion_30_casos.csv",
+      "published_member": "archive/retrieval/comparacion_30_casos.csv",
+      "source_sha256": "4023e3f9489463eb32f4073709f553d367f9ac99ebac80f24f1e6089841b88f5",
+      "published_sha256": "8cd238a1384e94b62db019bf00b2aac358725508efb64f266bf3e85365b12d8a",
+      "changes": [
+        "Historical candidate-cache path made relative; cache not distributed."
+      ]
+    },
+    {
+      "source_archive_member": "comparacion_eurovoc_30_v1/informe_recuperacion.md",
+      "published_member": "archive/retrieval/informe_recuperacion.md",
+      "source_sha256": "8446820504c9cb780690794c342e2dc32d62b29b443bccbc6032ceeb2cc89d03",
+      "published_sha256": "33df9186228b78e4ef04d046f5d3b5bef332a7413d77b29b2427367644816026",
+      "changes": [
+        "Project identifier replaced."
+      ]
+    },
+    {
+      "source_archive_member": "comparacion_eurovoc_30_v1/inventario_candidatos.csv",
+      "published_member": "archive/retrieval/inventario_candidatos.csv",
+      "source_sha256": "9225d6efdd3c2ad046ad5dba330ea1c7b78bb437e8d33c49d0327afcff0b0303",
+      "published_sha256": "9225d6efdd3c2ad046ad5dba330ea1c7b78bb437e8d33c49d0327afcff0b0303",
+      "changes": []
+    },
+    {
+      "source_archive_member": "comparacion_eurovoc_30_v1/resumen.json",
+      "published_member": "archive/retrieval/resumen.json",
+      "source_sha256": "58c948d15313d1131f10c5298185ac527b099bb7f0197ba1f48dbcfb326098d1",
+      "published_sha256": "58c948d15313d1131f10c5298185ac527b099bb7f0197ba1f48dbcfb326098d1",
+      "changes": []
+    },
+    {
+      "source_archive_member": "entradas_enlazador_sin_qid.jsonl",
+      "published_member": "archive/contexts/synthetic30.jsonl",
+      "source_sha256": "83f057dab12de33832c0b01fd340e0b7b4e8a04c9ff2570f88a85b3b36a9370f",
+      "published_sha256": "83f057dab12de33832c0b01fd340e0b7b4e8a04c9ff2570f88a85b3b36a9370f",
+      "changes": []
+    }
+  ]
+}
